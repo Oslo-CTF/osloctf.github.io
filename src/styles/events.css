@@ -1,0 +1,49 @@
+.eventList {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem 0;
+}
+
+.eventItem {
+    display: grid;
+    grid-template-columns: 10rem auto;
+    grid-template-rows: minmax(5rem, auto);
+
+    background: var(--background-secondary);
+    border-radius: 0.25rem;
+}
+
+.eventDate {
+    display: grid;
+    grid-auto-rows: min-content;
+    place-content: center;
+
+    background: white;
+    color: rgba(0, 0, 0, .86);
+    text-align: center;
+
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.eventDay { font-size: 2rem; }
+
+.eventMonth { font-size: 1rem; font-weight: 600; }
+
+.eventContent {
+    padding: 1rem;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+
+    .eventItem {
+        grid-template-columns: auto;
+        grid-template-rows: 5rem auto;
+        border-radius: 0 0 0.25rem 0.25rem;
+    }
+
+    .eventDate {
+        border-radius: 0.25rem 0.25rem 0 0;
+    }
+
+}

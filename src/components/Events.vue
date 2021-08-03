@@ -30,7 +30,7 @@ function dateSuffix(date) {
 
 const getDateParts = (date) => {
   return {
-    day: dateSuffix(date.getDay()),
+    day: dateSuffix(date.getDate()),
     month: monthNames[date.getMonth()]
   }
 }

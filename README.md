@@ -2,6 +2,8 @@
 
 Followed this guide: https://blog.logrocket.com/build-deploy-vue-js-app-github-pages/
 
+Use cli or install [vue-canvas](https://github.com/viclotana/vue-canvas).
+
 ## Project setup
 ```
 yarn install

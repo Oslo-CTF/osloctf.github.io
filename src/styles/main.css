@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --background: #101518;
+    --background-secondary: #0d0f11;
+    --foreground: rgba(255, 255, 255, 0.72);
+    --foreground-secondary: rgba(255, 255, 255, 0.56);
+
+    --divider: rgba(255, 255, 255, 0.12);
+
+    --primary: #f40404;
+
+    --container-width: 1200px;
+
+    --standard-easing: cubic-bezier(0.4, 0, 0.2, 1);
+    --decelerate-easing: cubic-bezier(0, 0, 0.2, 1);
+    --accelerate-easing: cubic-bezier(0.4, 0, 1, 1);
+}
+
+html,
+body {
+    margin: 0;
+    background: var(--background);
+    color: var(--foreground-secondary);
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+
+    font-size: 1rem;
+    letter-spacing: 0.03125rem;
+
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+main {
+    padding: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    margin: 0;
+    color: var(--foreground);
+}
+
+h1 {
+    font-size: 6rem;
+    letter-spacing: -0.09375rem;
+    font-weight: 300;
+    line-height: 5.75rem;
+}
+
+h2 {
+    font-size: 3.75rem;
+    letter-spacing: -0.03125rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 2.125rem;
+    letter-spacing: 0.015625rem;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 1.25rem;
+    letter-spacing: 0.009375;
+    font-weight: 500;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+button {
+    border: none;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.078125rem;
+    font-family: "Roboto", sans-serif;
+
+    cursor: pointer;
+
+    padding: 0 1rem;
+    height: 48px;
+
+    background: white;
+    color: var(--background);
+    margin: 0;
+    appearance: none;
+
+    transition: transform 250ms var(--standard-easing);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button.primary {
+    background: var(--primary);
+    color: white;
+}
+
+input {
+    background: var(--background-secondary);
+    border: none;
+    font-size: 0.875rem;
+    color: var(--foreground);
+    border: 1px solid var(--divider);
+    padding: 0 1rem;
+    height: 48px;
+    margin: 0;
+    appearance: none;
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 2rem;
+}

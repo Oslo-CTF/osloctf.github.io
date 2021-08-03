@@ -1,0 +1,26 @@
+.icon {
+    width: 24px;
+    height: 24px;
+
+    pointer-events: none;
+    fill: currentColor;
+}
+
+.iconButton {
+    display: grid;
+    place-items: center;
+    color: currentColor;
+
+    border-radius: 50%;
+    cursor: pointer;
+    padding: .5rem;
+}
+
+.iconButton:hover {
+    background: rgba(255, 255, 255, .12);
+}
+
+.iconButton .icon {
+    width: 36px;
+    height: 36px;
+}

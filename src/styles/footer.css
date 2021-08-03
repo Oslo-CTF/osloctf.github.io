@@ -1,0 +1,21 @@
+.footer {
+    background: var(--background-secondary);
+    padding: 1rem;
+}
+
+.footerContainer {
+    max-width: var(--container-width);
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.footerContainer a {
+    color: var(--foreground-secondary);
+}
+
+.footerContainer a:hover {
+    color: var(--primary);
+}

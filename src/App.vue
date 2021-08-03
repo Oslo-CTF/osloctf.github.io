@@ -7,7 +7,7 @@
         <Team/>
       </div>
     </main>
-    <!-- <Footer/> -->
+    <Footer/>
   </div>
 </template>
 
@@ -15,6 +15,7 @@
 import Header from "./components/Header";
 import Events from "./components/Events";
 import Team from "./components/Team";
+import Footer from "./components/Footer";
 
 export default {
   name: "App",
@@ -22,6 +23,7 @@ export default {
     Header,
     Events,
     Team,
+    Footer,
   },
 };
 </script>

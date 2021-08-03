@@ -18,6 +18,9 @@
 </template>
 
 <script>
+import vueConfig from '../../vue.config.js';
+
+const publicPath = process.env.NODE_ENV === 'development' ? '/' : vueConfig.publicPath;
 
 export default {
   name: 'Team',
@@ -28,31 +31,31 @@ export default {
           id: 0,
           name: 'Greger Martinussen',
           title: 'Team Leader',
-          profilePicture: '/team/Martinussen.jpg',
+          profilePicture: `${publicPath}team/Martinussen.jpg`,
         },
         {
           id: 1,
           name: 'Marit Iren Rognli Tokle',
           title: 'Team Captain',
-          profilePicture: '/team/Tokle.jpg',
+          profilePicture: `${publicPath}team/Tokle.jpg`,
         },
         {
           id: 2,
           name: 'Mathias Frits Rørvik',
           title: 'Team Captain',
-          profilePicture: '/team/Rorvik.jpg',
+          profilePicture: `${publicPath}team/Rorvik.jpg`,
         },
         {
           id: 3,
           name: 'Marie Ihle Frogner',
           title: 'Team Captain',
-          profilePicture: '/team/Frogner.jpg',
+          profilePicture: `${publicPath}team/Frogner.jpg`,
         },
         {
           id: 4,
           name: 'Daniel Heinesen',
           title: 'Team Captain',
-          profilePicture: '/team/Heinesen.jpg',
+          profilePicture: `${publicPath}team/Heinesen.jpg`,
         },
       ],
     }

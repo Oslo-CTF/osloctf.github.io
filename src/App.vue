@@ -3,7 +3,7 @@
     <Header />
     <main>
       <div class="container">
-        <!-- <Events/> -->
+        <Events/>
         <!-- <Team/> -->
       </div>
     </main>
@@ -12,12 +12,14 @@
 </template>
 
 <script>
-import Header from "./components/Header.vue";
+import Header from "./components/Header";
+import Events from "./components/Events";
 
 export default {
   name: "App",
   components: {
     Header,
+    Events,
   },
 };
 </script>

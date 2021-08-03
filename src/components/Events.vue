@@ -36,6 +36,7 @@ const getDateParts = (date) => {
 }
 
 export default {
+  name: 'Events',
   data() {
     return {
       events: [],

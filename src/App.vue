@@ -4,7 +4,7 @@
     <main>
       <div class="container">
         <Events/>
-        <!-- <Team/> -->
+        <Team/>
       </div>
     </main>
     <!-- <Footer/> -->
@@ -14,12 +14,14 @@
 <script>
 import Header from "./components/Header";
 import Events from "./components/Events";
+import Team from "./components/Team";
 
 export default {
   name: "App",
   components: {
     Header,
     Events,
+    Team,
   },
 };
 </script>

@@ -1,0 +1,75 @@
+/* Member List */
+
+.memberList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Members */
+
+.member {
+    margin: 0.5rem 0;
+}
+
+    /* Avatar - The users avatar and the blob behind the avatar */
+
+    .avatarContainer {
+        --avatar-container-size: 300px;
+        --avatar-container-padding: 3rem;
+
+        display: grid;
+        place-items: center;
+        position: relative;
+
+        width: var(--avatar-container-size);
+        height: var(--avatar-container-size);
+
+        border-radius: 50%;
+    }
+
+        .avatarContainer .blob {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .avatar {
+            padding: var(--avatar-container-padding);
+            position: relative;
+        }
+
+            .avatar img {
+                display: block;
+                width: 100%; height: 100%;
+
+                border-radius: 50%;
+            }
+
+    /* Member Details - The area below the profile picture */
+
+    .details {
+        display: grid;
+        grid-gap: 0.25rem;
+
+        text-align: center;
+    }
+
+        .name {
+            font-size: 1rem;
+        }
+
+        .title {
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--foreground-secondary);
+        }
+
+@media (max-width: 700px) {
+    .avatarContainer {
+        --avatar-container-size: 150px;
+        --avatar-container-padding: 1.5rem;
+    }
+}

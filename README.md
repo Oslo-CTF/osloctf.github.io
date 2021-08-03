@@ -1,5 +1,7 @@
 # osloctf.github.io
 
+Followed this guide: https://blog.logrocket.com/build-deploy-vue-js-app-github-pages/
+
 ## Project setup
 ```
 yarn install
@@ -18,6 +20,11 @@ yarn build
 ### Lints and fixes files
 ```
 yarn lint
+```
+
+### Deploy to Github Pages
+```
+yarn deploy
 ```
 
 ### Customize configuration

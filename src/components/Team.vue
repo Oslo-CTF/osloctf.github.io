@@ -50,12 +50,6 @@ export default {
         },
         {
           id: 4,
-          name: 'Nora Tomas',
-          title: 'Team Captain',
-          profilePicture: '/team/Tomas.jpg',
-        },
-        {
-          id: 5,
           name: 'Daniel Heinesen',
           title: 'Team Captain',
           profilePicture: '/team/Heinesen.jpg',

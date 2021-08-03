@@ -15,7 +15,7 @@
           welcome to join us while solving hacking tasks! Join our discord
           channel to get more information about joining us in hacking
           competitions:
-          <a href="https://discord.gg/7aTwpGa">https://discord.gg/7aTwpGa</a>
+          <a target="_blank" rel="noopener" href="https://discord.gg/7aTwpGa">https://discord.gg/7aTwpGa</a>
         </p>
         <div class="links">
           <div class="internalLinks">

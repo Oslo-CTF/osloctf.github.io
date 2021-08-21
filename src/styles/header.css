@@ -1,6 +1,6 @@
 .header {
     background: var(--primary);
-    min-height: 100vh;
+    min-height: 60vh;
     position: relative;
     overflow: hidden;
   

@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/oslo-ctf.github.io/'
+    publicPath: '/osloctf.github.io/'
 }

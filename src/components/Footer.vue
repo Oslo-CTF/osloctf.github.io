@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="footerContainer">
-      © {{ year }} Oslo-CTF
+      © {{ year }} Oslo CTF
     </div>
   </footer>
 </template>

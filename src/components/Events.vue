@@ -47,13 +47,13 @@ export default {
       {
         id: 0,
         date: getDateParts(new Date('2021-08-24')),
-        title: 'Workshop #1: Practicing Computer Skills with OverTheWire',
+        title: 'Workshop: Practicing Computer Skills with OverTheWire',
         description: 'OverTheWire (https://overthewire.org/wargames/) is a platform that hosts wargames to learn and practice security and computer concepts in the form of games. The platform has several categories with different difficulties. \n\nThis event is for everyone. Something for everyone due to the categories and levels. This is especially good for first-year students to learn about common computer concepts and get comfortable with the Linux environment (which is really important when doing programming and tons of other computer stuff). You literally don\'t need to know _anything_ about CTF or security to join in!'
       },
       {
         id: 1,
         date: getDateParts(new Date('2021-09-07')),
-        title: 'Workshop #2: Introduction to CTF with PicoCTF',
+        title: 'Workshop: Introduction to CTF with PicoCTF',
         description: 'picoCTF (https://play.picoctf.org/login) is a platform to solve CTF challenges for education created by security and privacy experts at Carnegie Mellom University. Similar to OverTheWire it is no competetion, but a platform to learn and practice your skills. Read more about picoCTF here: https://picoctf.org/. picoCTF hosts challenges within the most common categories of CTFs, web exploitation, reverse engineering, binary exploitation, forensics and cryptography. In addition, they have a category for general skills. Target audience: Everyone. Something for everyone due to the categories and levels.We recommend first-year students to join! You literally don\'t need to know _anything_ about CTF or security to join in!'
       },
       {
@@ -77,13 +77,13 @@ export default {
       {
         id: 5,
         date: getDateParts(new Date('2021-11-09')),
-        title: 'Workshop #5: TBA!',
+        title: 'Workshop: TBA!',
         description: 'This will be a fun workshop or presentation about IAM!'
       },
       {
         id: 6,
         date: getDateParts(new Date('2021-11-23')),
-        title: 'Workshop #6: Hack together!',
+        title: 'Workshop: Hack together!',
         description: 'This is a workshop where everyone bring their computers and we hack together on whatever you want! Maybe some mandatory assignment, continuing on some of the challenges from the previous workshops, or maybe you have your own side project? Everything is welcome! <3'
       },
     ]

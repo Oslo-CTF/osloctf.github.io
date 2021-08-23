@@ -43,7 +43,7 @@ export default {
           id: 2,
           name: 'Armina',
           title: 'Social and Recruitment Manager',
-					profilePicture: `${publicPath}team/default2.jpg`,
+					profilePicture: `${publicPath}team/armina.jpg`,
         },
         {
           id: 3,
@@ -59,21 +59,33 @@ export default {
         },
         {
           id: 5,
+          name: 'Hedda',
+          title: 'Organizer',
+					profilePicture: `${publicPath}team/default2.jpg`,
+        },
+        {
+          id: 6,
           name: 'Mathias Frits Rørvik',
           title: 'Organizer',
           profilePicture: `${publicPath}team/Rorvik.jpg`,
         },
         {
-          id: 6,
+          id: 7,
           name: 'Marie Ihle Frogner',
           title: 'Organizer',
           profilePicture: `${publicPath}team/Frogner.jpg`,
         },
         {
-          id: 7,
+          id: 8,
           name: 'Daniel Heinesen',
           title: 'Organizer',
           profilePicture: `${publicPath}team/Heinesen.jpg`,
+        },
+        {
+          id: 9,
+          name: 'Kathrine',
+          title: 'Organizer',
+					profilePicture: `${publicPath}team/default1.jpg`,
         },
       ],
     }

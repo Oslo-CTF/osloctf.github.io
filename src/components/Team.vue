@@ -61,7 +61,7 @@ export default {
           id: 5,
           name: 'Hedda',
           title: 'Organizer',
-					profilePicture: `${publicPath}team/default2.jpg`,
+					profilePicture: `${publicPath}team/hedda.jpg`,
         },
         {
           id: 6,

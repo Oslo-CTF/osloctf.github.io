@@ -65,8 +65,8 @@ export default {
       {
         id: 3,
         date: getDateParts(new Date('2021-10-05')),
-        title: 'Presentation: Fra Bsc i historie til cybersikkerhet – historier fra bransjen',
-        description: 'Jeg har jobbet de siste 10 årene innenfor fagfeltet cybersikkerhet, både hos private selskaper og hos det offentlige, hos dedikerte sikkerhetsselskaper og konsulentselskaper. Så la oss snakke om bransjen, om fallgruvene, om å søke jobb, om å holde seg faglig relevant og alle andre erfaringene jeg har gjort meg de siste 10 årene. Fordi det er en plass til alle i denne bransjen, uansett interesse eller bakgrunn, og jeg burde vite; jeg er utdannet historikker.'
+        title: 'Presentation: From a history degree to cybersecurity - stories from the trenches',
+        description: 'I have worked in the cybersecurity field for the last ten years, both at private companies and in the public sector, at dedicated security firms and consultancy firms. I was a part of BSides Oslo and the OsloSec meetup; lately, I have been building the Norsec community (and the initiatives growing from that). So let\'s talk about the cybersecurity field, about the pitfalls, about applying for a job, keeping yourself relevant, the mistakes I have made, and all the other experiences I have acquired for the last ten years. I believe there is room for everybody in this field, no matter your interest or background, and I should know; I have a bachelor\'s in history.'
       },
       {
         id: 4,
@@ -77,8 +77,8 @@ export default {
       {
         id: 5,
         date: getDateParts(new Date('2021-11-09')),
-        title: 'Workshop: TBA!',
-        description: 'This will be a fun workshop or presentation about IAM!'
+        title: 'Workshop: Introduction to Identity and Access Management',
+        description: 'We will start with a 60-90min presentation on what Identity and Access Management is and why it now is seen as the new perimeter and a very important cyber security domain. We will then go over to hands on tasks where we together set up a OIDC federation (to get Single Sign On) and then each participant will provison users through API\'s.'
       },
       {
         id: 6,

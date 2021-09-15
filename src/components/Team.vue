@@ -31,7 +31,7 @@ export default {
           id: 0,
           name: 'Line',
           title: 'Association President',
-					profilePicture: `${publicPath}team/default1.jpg`,
+					profilePicture: `${publicPath}team/kvili.jpeg`,
         },
         {
           id: 1,

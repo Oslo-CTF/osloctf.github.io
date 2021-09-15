@@ -1,6 +1,9 @@
 # osloctf.github.io
 
-Followed this guide: https://blog.logrocket.com/build-deploy-vue-js-app-github-pages/
+## Prerequisites
+In order to run the project, you will need to download [yarn](https://classic.yarnpkg.com/en/docs/install/).
+You might need to install [Node.js](https://nodejs.org/en/download/) to get 
+Yarn.
 
 ## Project setup
 ```
@@ -26,6 +29,8 @@ yarn lint
 ```
 
 ### Deploy to Github Pages
+Followed this guide: https://blog.logrocket.com/build-deploy-vue-js-app-github-pages/
+
 Once you've finished your changes and want to deploy them, this is the section
 to follow. 
 

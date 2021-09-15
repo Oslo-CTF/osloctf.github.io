@@ -16,7 +16,7 @@
         </p> 
         <p>
           Join our Discord server to get more information about our events:
-          <a target="_blank" rel="noopener" href="https://discord.gg/7aTwpGa">https://discord.gg/7aTwpGa</a>
+          <a target="_blank" rel="noopener" href="https://discord.gg/8qxVtSfHfx">https://discord.gg/8qxVtSfHfx</a>
         </p>
         <div class="links">
           <div class="internalLinks">

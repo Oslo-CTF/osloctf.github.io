@@ -65,7 +65,7 @@ export default {
       {
         id: 3,
         date: getDateParts(new Date('2021-10-05')),
-        title: 'Presentation: From a history degree to cybersecurity - stories from the trenches',
+        title: 'Presentation: From a history degree to cybersecurity - stories from the trenches – Smalltalk at UiO – 18.00-19.00',
         description: 'I have worked in the cybersecurity field for the last ten years, both at private companies and in the public sector, at dedicated security firms and consultancy firms. I was a part of BSides Oslo and the OsloSec meetup; lately, I have been building the Norsec community (and the initiatives growing from that). So let\'s talk about the cybersecurity field, about the pitfalls, about applying for a job, keeping yourself relevant, the mistakes I have made, and all the other experiences I have acquired for the last ten years. I believe there is room for everybody in this field, no matter your interest or background, and I should know; I have a bachelor\'s in history.'
       },
       {

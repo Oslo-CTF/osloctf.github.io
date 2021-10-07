@@ -77,7 +77,7 @@ export default {
       {
         id: 5,
         date: getDateParts(new Date('2021-11-09')),
-        title: 'Workshop: Introduction to Identity and Access Management',
+        title: 'Workshop: Introduction to Identity and Access Management – Caml at UiO – 17.00-20.00',
         description: 'We will start with a 60-90min presentation on what Identity and Access Management is and why it now is seen as the new perimeter and a very important cyber security domain. We will then go over to hands on tasks where we together set up a OIDC federation (to get Single Sign On) and then each participant will provison users through API\'s.'
       },
       {

@@ -71,7 +71,7 @@ export default {
       {
         id: 4,
         date: getDateParts(new Date('2021-10-26')),
-        title: 'Presentation: Demonstrating Binary Exploitation with a Recent Vulnerability' - Smalltalk at UIO - 18.00-19.00,
+        title: 'Presentation: Demonstrating Binary Exploitation with a Recent Vulnerability - Smalltalk at UIO - 18.00-19.00',
         description: 'Binary exploitation is a common attack method in memory unsafe programs. Some might think binary exploitation is old news and rarely happens, but that’s wrong - it is highly relevant and common even in 2021! Marit and Christian introduce the concept of binary exploitation with code examples. They demonstrate how to exploit a recent vulnerability in the Exim mail server by explaining the vulnerability and the exploit, and running it live! Then they show ways to detect and prevent memory corruption vulnerabilities in your software.'
       },
       {
@@ -83,7 +83,7 @@ export default {
       {
         id: 6,
         date: getDateParts(new Date('2021-11-23')),
-        title: 'Workshop: Hack together!',
+        title: 'Workshop: Hack together! - Caml at UIO - 17.00-20.00',
         description: 'This is a workshop where everyone bring their computers and we hack together on whatever you want! Maybe some mandatory assignment, continuing on some of the challenges from the previous workshops, or maybe you have your own side project? Everything is welcome! <3'
       },
     ]

@@ -46,53 +46,41 @@ export default {
     this.events = [
       {
         id: 0,
-        date: getDateParts(new Date('2021-08-24')),
-        title: 'Workshop: Practicing Computer Skills with OverTheWire',
-        description: 'OverTheWire (https://overthewire.org/wargames/) is a platform that hosts wargames to learn and practice security and computer concepts in the form of games. The platform has several categories with different difficulties. \n\nThis event is for everyone. Something for everyone due to the categories and levels. This is especially good for first-year students to learn about common computer concepts and get comfortable with the Linux environment (which is really important when doing programming and tons of other computer stuff). You literally don\'t need to know _anything_ about CTF or security to join in!'
+        date: getDateParts(new Date('2022-01-26')),
+        title: 'Workshop: Machine setup - UIO and online - 17.00-20.00',
+        description: 'Having a proper environment on your machine is essential to do efficient programming and solving CTF challenges. We host this workshop to provide you with advices on software to use, as well as helping you on your way to install them. In our previous workshops we\'ve helped a lot of you to setup Windows Subsystem for Linux (WSL) or install virtual machines to run a Linux distro. Don\'t know what WSL or Linux is? Don\'t worry! We will introduce our workshop with the required information. Target audience: Everyone who would like a few advices of software to check out, or want some help with setting up software for your environment. Or just hang out with us <3'
       },
       {
         id: 1,
-        date: getDateParts(new Date('2021-09-07')),
-        title: 'Workshop: Introduction to CTF with PicoCTF',
-        description: 'picoCTF (https://play.picoctf.org/login) is a platform to solve CTF challenges for education created by security and privacy experts at Carnegie Mellom University. Similar to OverTheWire it is no competetion, but a platform to learn and practice your skills. Read more about picoCTF here: https://picoctf.org/. picoCTF hosts challenges within the most common categories of CTFs, web exploitation, reverse engineering, binary exploitation, forensics and cryptography. In addition, they have a category for general skills. Target audience: Everyone. Something for everyone due to the categories and levels.We recommend first-year students to join! You literally don\'t need to know _anything_ about CTF or security to join in!'
+        date: getDateParts(new Date('2022-02-02')),
+        title: 'Workshop: Intro-level picoMini CTF - UIO and online - 17.00-20.00',
+        description: 'From picoctf.org: "Recommended for players interested in experiencing a picoCTF competition who may feel intimidated by the content’s difficulty and competitiveness of our annual contest. This CTF consists of introductory level challenges requiring no previous experience to play. Some programming knowledge is helpful as challenges progress. Designed for individual play." The picoMini CTF for noobies runs from Jan 10 - Feb 4! Oslo CTF host an event to meet up and hack together at the very end of the CTF. This event is for everyone who wants to practice CTF skills or learn some new skills. No previous experience is required, only a will to do some thorough googling! There is something for everyone due to the categories and levels. If it is a little too hard, we know other challenges to recommend. When logged in to play.picoctf.org, you may find the CTF here: https://play.picoctf.org/events/69'
       },
       {
         id: 2,
-        date: getDateParts(new Date('2021-09-21')),
-        title: 'Workshop #3: Getting Started with Power Analysis Attacks',
-        description: 'Kathrine hosts a workshop where she talks about power analysis attacks, and how to get started with it. Next, you\'ll learn how you can capture power traces and get some hands-on experience with how you can use them to break cryptography. The target audience should have some Python experience. It is good to have heard about AES and power analysis, but not a must.'
+        date: getDateParts(new Date('2022-03-23')),
+        title: 'Workshop: Introduction to Hack The Box (HTB) - UIO and online - 17.00-20.00',
+        description: 'Beskrivelse kommer. Target audience: Everyone interested in checking out Hack The Box. This is especially nice for those who would like to understand more of pentesting.'
       },
       {
         id: 3,
-        date: getDateParts(new Date('2021-10-05')),
-        title: 'Presentation: From a history degree to cybersecurity - stories from the trenches – Smalltalk at UiO – 18.00-19.00',
-        description: 'I have worked in the cybersecurity field for the last ten years, both at private companies and in the public sector, at dedicated security firms and consultancy firms. I was a part of BSides Oslo and the OsloSec meetup; lately, I have been building the Norsec community (and the initiatives growing from that). So let\'s talk about the cybersecurity field, about the pitfalls, about applying for a job, keeping yourself relevant, the mistakes I have made, and all the other experiences I have acquired for the last ten years. I believe there is room for everybody in this field, no matter your interest or background, and I should know; I have a bachelor\'s in history.'
+        date: getDateParts(new Date('2022-04-06')),
+        title: 'Presentation: Intro til reverse engineering - UIO and online - 17.00-20.00',
+        description: 'En praktisk workshop i reverse engineering med hovedvekt på Windows og x86-64. Workshopen blir todelt hvor den første delen blir en introduksjon i hva reverse engineering er og hvordan man kommer i gang med det. Den andre og største delen blir praktisk hvor man selv får prøve å reverse en del forskjellig i en CTF-lignende stil.'
       },
       {
         id: 4,
-        date: getDateParts(new Date('2021-10-26')),
-        title: 'Presentation: Demonstrating Binary Exploitation with a Recent Vulnerability - Smalltalk at UIO - 18.00-19.00',
-        description: 'Binary exploitation is a common attack method in memory unsafe programs. Some might think binary exploitation is old news and rarely happens, but that’s wrong - it is highly relevant and common even in 2021! Marit and Christian introduce the concept of binary exploitation with code examples. They demonstrate how to exploit a recent vulnerability in the Exim mail server by explaining the vulnerability and the exploit, and running it live! Then they show ways to detect and prevent memory corruption vulnerabilities in your software.'
-      },
-      {
-        id: 5,
-        date: getDateParts(new Date('2021-11-09')),
-        title: 'Workshop: Introduction to Identity and Access Management – Caml at UiO – 17.00-20.00',
-        description: 'We will start with a 60-90min presentation on what Identity and Access Management is and why it now is seen as the new perimeter and a very important cyber security domain. We will then go over to hands on tasks where we together set up a OIDC federation (to get Single Sign On) and then each participant will provison users through API\'s.'
-      },
-      {
-        id: 6,
-        date: getDateParts(new Date('2021-11-23')),
-        title: 'Workshop: Hack together! - Caml at UIO - 17.00-20.00',
+        date: getDateParts(new Date('2022-04-27')),
+        title: 'Workshop: Hack together! - UIO and online - 17.00-20.00',
         description: 'This is a workshop where everyone bring their computers and we hack together on whatever you want! Maybe some mandatory assignment, continuing on some of the challenges from the previous workshops, or maybe you have your own side project? Everything is welcome! <3'
-      },
-    ]
-  },
-  methods: {
-    getMonthName(month) {
-      return monthNames[month];
-    }
+        },
+  ]
+},
+methods: {
+  getMonthName(month) {
+    return monthNames[month];
   }
+}
 };
 </script>
 

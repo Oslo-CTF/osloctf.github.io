@@ -48,19 +48,13 @@ export default {
         id: 0,
         date: getDateParts(new Date('2022-01-26')),
         title: 'Workshop: Machine setup - UIO and online - 17.00-20.00',
-        description: 'Having a proper environment on your machine is essential to do efficient programming and solving CTF challenges. We host this workshop to provide you with advices on software to use, as well as helping you on your way to install them.
-        In our previous workshops we've helped a lot of you to setup Windows Subsystem for Linux (WSL) or install virtual machines to run a Linux distro. Don't know what WSL or Linux is? Don't worry! We will introduce our workshop with the required information.
-        Target audience: Everyone who would like a few advices of software to check out, or want some help with setting up software for your environment. Or just hang out with us <3'
+        description: 'Having a proper environment on your machine is essential to do efficient programming and solving CTF challenges. We host this workshop to provide you with advices on software to use, as well as helping you on your way to install them. In our previous workshops we\'ve helped a lot of you to setup Windows Subsystem for Linux (WSL) or install virtual machines to run a Linux distro. Don\'t know what WSL or Linux is? Don\'t worry! We will introduce our workshop with the required information. Target audience: Everyone who would like a few advices of software to check out, or want some help with setting up software for your environment. Or just hang out with us <3'
       },
       {
         id: 1,
         date: getDateParts(new Date('2022-02-02')),
         title: 'Workshop: Intro-level picoMini CTF - UIO and online - 17.00-20.00',
-        description: 'From picoctf.org:
-"Recommended for players interested in experiencing a picoCTF competition who may feel intimidated by the content’s difficulty and competitiveness of our annual contest. This CTF consists of introductory level challenges requiring no previous experience to play. Some programming knowledge is helpful as challenges progress. Designed for individual play."
-The picoMini CTF for noobies runs from Jan 10 - Feb 4! Oslo CTF host an event to meet up and hack together at the very end of the CTF.
-This event is for everyone who wants to practice CTF skills or learn some new skills. No previous experience is required, only a will to do some thorough googling! There is something for everyone due to the categories and levels. If it is a little too hard, we know other challenges to recommend.
-When logged in to play.picoctf.org, you may find the CTF here: https://play.picoctf.org/events/69
+        description: 'From picoctf.org: "Recommended for players interested in experiencing a picoCTF competition who may feel intimidated by the content’s difficulty and competitiveness of our annual contest. This CTF consists of introductory level challenges requiring no previous experience to play. Some programming knowledge is helpful as challenges progress. Designed for individual play." The picoMini CTF for noobies runs from Jan 10 - Feb 4! Oslo CTF host an event to meet up and hack together at the very end of the CTF. This event is for everyone who wants to practice CTF skills or learn some new skills. No previous experience is required, only a will to do some thorough googling! There is something for everyone due to the categories and levels. If it is a little too hard, we know other challenges to recommend. When logged in to play.picoctf.org, you may find the CTF here: https://play.picoctf.org/events/69'
       },
       {
         id: 2,
@@ -79,14 +73,14 @@ When logged in to play.picoctf.org, you may find the CTF here: https://play.pico
         date: getDateParts(new Date('2022-04-27')),
         title: 'Workshop: Hack together! - UIO and online - 17.00-20.00',
         description: 'This is a workshop where everyone bring their computers and we hack together on whatever you want! Maybe some mandatory assignment, continuing on some of the challenges from the previous workshops, or maybe you have your own side project? Everything is welcome! <3'
-      },
-
-  },
-  methods: {
-    getMonthName(month) {
-      return monthNames[month];
-    }
+        },
+  ]
+},
+methods: {
+  getMonthName(month) {
+    return monthNames[month];
   }
+}
 };
 </script>
 

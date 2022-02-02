@@ -59,20 +59,20 @@ export default {
       {
         id: 2,
         date: getDateParts(new Date('2022-02-23')),
-        title: 'Workshop: Where Technical and Tactical Analysis meets the Business Needs - Caml at UIO and online - 17.00-20.00',
+        title: 'Workshop: CTI -> Intelligence Requirements -> Where Technical and Tactical Analysis meets the Business Needs - Caml at UIO and online - 17.00-20.00',
         description: 'First we will go through what cyber threat intelligence is in context of the intelligence process. Then we will convert a small portion of that knowledge into practice and work together to identify potential stakeholders and their needs, prioritize and track their requirements, and translate those requirements into collection efforts and analysis.'
       },
       {
         id: 3,
         date: getDateParts(new Date('2022-03-09')),
         title: 'Workshop: Web hacking 101 - Caml at UIO and online - 17.00-20.00',
-        description: 'Target audience: Everyone interested in learning how what web hacking is and how to get started.'
+        description: 'Target audience: Everyone interested in learning how what web hacking is and how to get started. Dette blir et foredrag som introduserer publikum til web hacking, etterfulgt av en Capture The Flag (CTF) konkurranse med flere oppgaver hvor man skal få prøve seg på noen av de temaene som ble presentert, samt flere andre utfordringer. Web hacking er et bredt tema med ekstremt mye å ta for seg, så foredraget vil fokusere på grunleggende prinsipper og ta sikte på å gi publikum noen av verktøyene de trenger for å kunne fordype seg selv videre, slik at man får brukt så mye som mulig av tiden på å prøve seg på praktiske oppgaver.'
       },
       {
         id: 4,
         date: getDateParts(new Date('2022-03-23')),
         title: 'Workshop: Introduction to Hack The Box (HTB) - Caml at UIO and online - 17.00-20.00',
-        description: 'Beskrivelse kommer. Target audience: Everyone interested in checking out Hack The Box. This is especially nice for those who would like to understand more of pentesting.'
+        description: 'HTB is an online cyber security training platform for both beginners and professionals. This workshop will introduce you to HTB Starting Point, a way to learn the basics of Penetration Testing. Starting Point contains very easy and beginner friendly vulnerable machines that you can try to hack. A walkthrough is provided with every machine, in case you get stuck with any of the machines.. Target audience: Everyone interested in checking out Hack The Box. This is especially nice for those who would like to understand more of pentesting.'
       },
       {
         id: 5,

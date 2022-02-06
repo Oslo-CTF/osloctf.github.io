@@ -66,7 +66,7 @@ export default {
         id: 3,
         date: getDateParts(new Date('2022-03-09')),
         title: 'Workshop: Introduksjon til Web Hacking - Caml at UiO (not online) - 17.00-20.00',
-        description: 'Target audience: Everyone interested in learning how what web hacking is and how to get started. Dette blir et foredrag som introduserer publikum til web hacking, etterfulgt av en Capture The Flag (CTF) konkurranse med flere oppgaver hvor man skal få prøve seg på noen av de temaene som ble presentert, samt flere andre utfordringer. Web hacking er et bredt tema med ekstremt mye å ta for seg, så foredraget vil fokusere på grunleggende prinsipper og ta sikte på å gi publikum noen av verktøyene de trenger for å kunne fordype seg selv videre, slik at man får brukt så mye som mulig av tiden på å prøve seg på praktiske oppgaver.'
+        description: 'Dette blir et foredrag som introduserer publikum til web hacking, etterfulgt av en Capture The Flag (CTF) konkurranse med flere oppgaver hvor man skal få prøve seg på noen av de temaene som ble presentert, samt flere andre utfordringer. Web hacking er et bredt tema med ekstremt mye å ta for seg, så foredraget vil fokusere på grunleggende prinsipper og ta sikte på å gi publikum noen av verktøyene de trenger for å kunne fordype seg selv videre, slik at man får brukt så mye som mulig av tiden på å prøve seg på praktiske oppgaver.'
       },
       {
         id: 4,

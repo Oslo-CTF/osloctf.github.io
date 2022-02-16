@@ -59,26 +59,26 @@ export default {
       {
         id: 2,
         date: getDateParts(new Date('2022-02-23')),
-        title: 'Workshop: CTI -> Intelligence Requirements -> Where Technical and Tactical Analysis meets the Business Needs - Caml at UIO and online - 17.00-20.00',
-        description: 'First we will go through what cyber threat intelligence is in context of the intelligence process. Then we will convert a small portion of that knowledge into practice and work together to identify potential stakeholders and their needs, prioritize and track their requirements, and translate those requirements into collection efforts and analysis.'
+        title: 'Workshop: CTI -> Intelligence Requirements -> Where Technical and Tactical Analysis meets the Business Needs - Caml at UIO and online - 18.00-20.00',
+        description: 'Freddy Murre, a senior threat intelligence analyst at Nordic Financial CERT (NFCERT), is hosting a workshop about threat intelligence! NFCERT is the sector CERT for the finance sector in Norway and we are stoked to get them in our program this semester! Firstly, we will go through what cyber threat intelligence is in context of the intelligence process. Then we will convert a small portion of that knowledge into practice and work together to identify potential stakeholders and their needs, prioritize and track their requirements, and translate those requirements into collection efforts and analysis.'
       },
       {
         id: 3,
         date: getDateParts(new Date('2022-03-09')),
         title: 'Workshop: Introduksjon til Web Hacking - Caml at UiO (not online) - 17.00-20.00',
-        description: 'Dette blir et foredrag som introduserer publikum til web hacking, etterfulgt av en Capture The Flag (CTF) konkurranse med flere oppgaver hvor man skal få prøve seg på noen av de temaene som ble presentert, samt flere andre utfordringer. Web hacking er et bredt tema med ekstremt mye å ta for seg, så foredraget vil fokusere på grunleggende prinsipper og ta sikte på å gi publikum noen av verktøyene de trenger for å kunne fordype seg selv videre, slik at man får brukt så mye som mulig av tiden på å prøve seg på praktiske oppgaver.'
+        description: 'I denne workshoppen er vi heldige å ha Erik Vetle Larsen, seniorkonsulent og fagleder for penetrasjonstesting hos Aztek, på besøk! Der jobber han med etisk hacking og hendelseshåndtering. Han har jobbet med penetrasjonstesting i flere år, og har god erfaring med de fleste disiplinene innunder fagfeltet. Dette blir et foredrag som introduserer publikum til web hacking, etterfulgt av en Capture The Flag (CTF) konkurranse med flere oppgaver hvor man skal få prøve seg på noen av de temaene som ble presentert, samt flere andre utfordringer. Web hacking er et bredt tema med ekstremt mye å ta for seg, så foredraget vil fokusere på grunleggende prinsipper og ta sikte på å gi publikum noen av verktøyene de trenger for å kunne fordype seg selv videre, slik at man får brukt så mye som mulig av tiden på å prøve seg på praktiske oppgaver.'
       },
       {
         id: 4,
         date: getDateParts(new Date('2022-03-23')),
         title: 'Workshop: Introduction to Hack The Box (HTB) - Caml at UIO and online - 17.00-20.00',
-        description: 'HTB is an online cyber security training platform for both beginners and professionals. This workshop will introduce you to HTB Starting Point, a way to learn the basics of Penetration Testing. Starting Point contains very easy and beginner friendly vulnerable machines that you can try to hack. A walkthrough is provided with every machine, in case you get stuck with any of the machines.. Target audience: Everyone interested in checking out Hack The Box. This is especially nice for those who would like to understand more of pentesting.'
+        description: 'For our Hack The Box (HTB) workshop, we are having a visit from klarz, both a workforce member and also a member of the CTF team, bootplug, which is ranked highest of all CTF teams in Norway. HTB is an online cyber security training platform for both beginners and professionals. This workshop will introduce you to HTB Starting Point, a way to learn the basics of Penetration Testing. Starting Point contains very easy and beginner friendly vulnerable machines that you can try to hack. A walkthrough is provided with every machine, in case you get stuck with any of the machines.. Target audience: Everyone interested in checking out Hack The Box. This is especially nice for those who would like to understand more of pentesting. Also, we know for a fact that klarz is very nice person and tutor, so you probably do not want to miss out on this workshop!'
       },
       {
         id: 5,
         date: getDateParts(new Date('2022-04-06')),
         title: 'Presentation: Intro til reverse engineering - Caml at UIO and online - 17.00-20.00',
-        description: 'En praktisk workshop i reverse engineering med hovedvekt på Windows og x86-64. Workshopen blir todelt hvor den første delen blir en introduksjon i hva reverse engineering er og hvordan man kommer i gang med det. Den andre og største delen blir praktisk hvor man selv får prøve å reverse en del forskjellig i en CTF-lignende stil.'
+        description: 'Vår egne Katrhine fra workforce skal lære oss om reverse engineering! Dette blir en praktisk workshop i reverse engineering med hovedvekt på Windows og x86-64. Workshopen blir todelt hvor den første delen blir en introduksjon i hva reverse engineering er og hvordan man kommer i gang med det. Den andre og største delen blir praktisk hvor man selv får prøve å reverse en del forskjellig i en CTF-lignende stil.'
       },
       {
         id: 6,

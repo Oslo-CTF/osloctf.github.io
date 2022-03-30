@@ -78,7 +78,20 @@ export default {
         id: 5,
         date: getDateParts(new Date('2022-04-06')),
         title: 'Presentation: Intro til reverse engineering - Caml at UIO and online - 17.00-20.00',
-        description: 'Vår egne Katrhine fra workforce skal lære oss om reverse engineering! Dette blir en praktisk workshop i reverse engineering med hovedvekt på Windows og x86-64. Workshopen blir todelt hvor den første delen blir en introduksjon i hva reverse engineering er og hvordan man kommer i gang med det. Den andre og største delen blir praktisk hvor man selv får prøve å reverse en del forskjellig i en CTF-lignende stil.'
+        description: 'Lurer du på hva reverse engineering egentlig er?
+
+Da er du hjertelig velkommen til workshop med Oslo CTF! Vi arrangerer en workshop hvor vi sammen utforsker hva reverse engineering er og hvorfor det kanskje er noe for akkurat deg! Videre så får du mulighet til å prøve deg på praktisk reverse engineering av programmer for Windows. Kanskje lærer du noe av hva x86-64 assembler er og noe av magien bak hva programmer faktisk er og gjør?
+
+Workshopen er for alle som er interessert eller nysgjerrig på reverse engineering. Den er hovedsaklig for nybegynnere innen reverse engineering. Du bør ha programmert i et språk som C, Java, Python eller lignende fra før, men alle er selvsagt velkommen uansett!
+
+Last gjerne ned IDA Freeware fra https://hex-rays.com/ida-free/ på forhånd, så slipper du å bruke tid til det på workshopen.
+
+Det blir også mat som ankommer litt før selve workshopen begynner.
+
+Workshopen blir ikke streamet, men det er mulig å prøve seg på litt praktisk reversing  digitalt også.
+
+Sted:
+Rom Caml, på Instituttet for Informatikk (Gaustadalléen 23B), UiO. Sjekk ut ifirom.no og søk på Caml for å få et kart.'
       },
       {
         id: 6,

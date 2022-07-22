@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'Footer',
+  name: 'InfoFooter',
   data() {
     return {
       year: new Date().getFullYear(),

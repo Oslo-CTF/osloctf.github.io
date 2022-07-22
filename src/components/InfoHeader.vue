@@ -40,7 +40,7 @@
 <script>
 
 export default {
-  name: "Header",
+  name: "EventHeader",
   props: {
 
   },

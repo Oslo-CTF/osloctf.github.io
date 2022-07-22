@@ -1,29 +1,29 @@
 <template>
   <div>
-    <Header />
+    <InfoHeader />
     <main>
       <div class="container">
-        <Events/>
-        <Team/>
+        <EventItems/>
+        <TeamMembers/>
       </div>
     </main>
-    <Footer/>
+    <InfoFooter/>
   </div>
 </template>
 
 <script>
-import Header from "./components/Header";
-import Events from "./components/Events";
-import Team from "./components/Team";
-import Footer from "./components/Footer";
+import InfoHeader from "./components/InfoHeader";
+import EventItems from "./components/EventItems";
+import TeamMembers from "./components/TeamMembers";
+import InfoFooter from "./components/InfoFooter";
 
 export default {
   name: "App",
   components: {
-    Header,
-    Events,
-    Team,
-    Footer,
+    InfoHeader,
+    EventItems,
+    TeamMembers,
+    InfoFooter,
   },
 };
 </script>

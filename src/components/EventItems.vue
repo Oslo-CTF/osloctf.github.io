@@ -47,7 +47,7 @@ const getDateParts = (date) => {
 }
 
 export default {
-  name: 'Events',
+  name: 'EventItems',
   data() {
     return {
       events: [],

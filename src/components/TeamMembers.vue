@@ -23,7 +23,7 @@ import vueConfig from '../../vue.config.js';
 const publicPath = process.env.NODE_ENV === 'development' ? '/' : vueConfig.publicPath;
 
 export default {
-  name: 'Team',
+  name: 'TeamMembers',
   data() {
     return {
       members: [

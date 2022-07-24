@@ -45,8 +45,9 @@ function addCname(url) {
 	fs.writeFileSync('./dist/CNAME', url, function(err) {
 		if (err) {
 			console.log('Could not create CNAME file. Go to https://github.com/Oslo-CTF/osloctf.github.io/settings/pages and enter "osloctf.no" to the "Custom domain" section to enable our domain. Remember to enforce HTTPS.');
+		} else {
+			console.log('The file CNAME was created successfully.');
 		}
-		console.log('The file CNAME was created successfully.');
 	});
 }
 

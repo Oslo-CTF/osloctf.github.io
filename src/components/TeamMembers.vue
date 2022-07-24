@@ -54,35 +54,17 @@ export default {
         {
           id: 4,
           name: 'Marit Iren R. Tokle',
-          title: 'Events Manager',
+          title: 'Program Manager',
           profilePicture: `${publicPath}team/Tokle.jpg`,
         },
         {
           id: 5,
-          name: 'Hedda',
-          title: 'Organizer',
-					profilePicture: `${publicPath}team/hedda.jpg`,
-        },
-        {
-          id: 6,
-          name: 'Mathias Frits Rørvik',
-          title: 'Organizer',
-          profilePicture: `${publicPath}team/Rorvik.jpg`,
-        },
-        {
-          id: 7,
           name: 'Marie Ihle Frogner',
           title: 'Organizer',
           profilePicture: `${publicPath}team/Frogner.jpg`,
         },
         {
-          id: 8,
-          name: 'Daniel Heinesen',
-          title: 'Organizer',
-          profilePicture: `${publicPath}team/Heinesen.jpg`,
-        },
-        {
-          id: 9,
+          id: 6,
           name: 'Kathrine',
           title: 'Organizer',
 					profilePicture: `${publicPath}team/default1.jpg`,

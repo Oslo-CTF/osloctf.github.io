@@ -31,20 +31,21 @@ yarn lint
 ### Deploy to Github Pages
 Followed this guide: https://blog.logrocket.com/build-deploy-vue-js-app-github-pages/
 
-Once you've finished your changes and want to deploy them, this is the section
-to follow. 
-
-First, make sure you have access to the [`Settings > Pages`](https://github.com/Oslo-CTF/osloctf.github.io/settings/pages)
-page in the top bar of this GitHub repository.
-
-Then execute the following command: 
+Once you've finished your changes and want to deploy them, execute the following 
+command: 
 ```
 yarn deploy
 ```
 
-After the deploy is done, go to `Settings > Pages` and write "osloctf.no" into 
-the `Custom domain` field. Otherwise the page is no longer connected to our 
-domain.
+To begin with, while deploying, GitHub is checking the DNS in order for our 
+domain to be used. This takes a couple of minutes and then the webpage should 
+show at https://osloctf.no. 
+
+However, if something goes wrong, the domain name might not have been added
+properly. Then you should go to [`Settings > Pages`](https://github.com/Oslo-CTF/osloctf.github.io/settings/pages)
+and write "osloctf.no" into the `Custom domain` field. 
+
+If you do not have access to the `Settings > Pages`-page, let us know in Discord.
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

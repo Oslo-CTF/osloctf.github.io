@@ -41,9 +41,9 @@ export default {
         },
         {
           id: 2,
-          name: 'Armina',
+          name: 'Marius',
           title: 'Social and Recruitment Manager',
-					profilePicture: `${publicPath}team/armina.jpg`,
+					profilePicture: `${publicPath}team/marius.jpg`,
         },
         {
           id: 3,

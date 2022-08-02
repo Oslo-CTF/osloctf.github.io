@@ -29,15 +29,15 @@ export default {
       members: [
         {
           id: 0,
-          name: 'Line',
+          name: 'Tiril',
           title: 'Association President',
-					profilePicture: `${publicPath}team/kvili.jpeg`,
+					profilePicture: `${publicPath}team/Tiril.jpg`,
         },
         {
           id: 1,
-          name: 'Tiril',
+          name: 'Stian',
           title: 'Association Vice President',
-					profilePicture: `${publicPath}team/Tiril.jpg`,
+					profilePicture: `${publicPath}team/Stian.jpeg`,
         },
         {
           id: 2,
@@ -47,9 +47,9 @@ export default {
         },
         {
           id: 3,
-          name: 'Kristin',
+          name: 'Are',
           title: 'Finance Manager',
-					profilePicture: `${publicPath}team/kristin.jpg`,
+					profilePicture: `${publicPath}team/Are.jpeg`,
         },
         {
           id: 4,

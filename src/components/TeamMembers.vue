@@ -59,12 +59,18 @@ export default {
         },
         {
           id: 5,
+          name: 'William',
+          title: 'CTF Manager',
+          profilePicture: `${publicPath}team/william.jpg`,
+        },
+        {
+          id: 6,
           name: 'Marie Ihle Frogner',
           title: 'Organizer',
           profilePicture: `${publicPath}team/Frogner.jpg`,
         },
         {
-          id: 6,
+          id: 7,
           name: 'Kathrine',
           title: 'Organizer',
 					profilePicture: `${publicPath}team/default1.jpg`,

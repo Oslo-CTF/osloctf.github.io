@@ -77,7 +77,7 @@ export default {
 				id: 1,
 				workshop: true,
 				date: getDateParts(new Date('2023-02-13')),
-				time: '17.00-20.00, UiO IFI, 3438 Seminarrom Caml',
+				time: '17.00-20.00, TBA',
 				language: 'english',
 				stream: true,
 				author: 'Christian, Security Researcher @ Dataflow Security, ex-Googler, speaker at BlackHat 2022 and CTF player for bootplug',
@@ -97,9 +97,9 @@ export default {
 				author: 'Eirik Nordbø, incident responder and penetration tester in Equinor, and CTF player for the team EPT',
 				link: 'https://discord.gg/2zwkdRRFQp?event=1055763054421344357',
 				title: 'Introduction to return oriented programming (ROP)',
-				description: 'Description will come soon',
+				description: 'Return Oriented Programming is the art of puzzling small parts (gadgets) of a computer program together in a way not intended by the program author. In this workshop we will swiftly discuss concepts like x64 architecture, assembly, stack layout, modern exploit mitigation and more before we move on to understanding stack buffer overflows and how we can use ROP to exploit them.',
 				prereqs: 'Laptop with Linux (or VM with Linux), IDA Free (https://hex-rays.com/ida-free/), pwntools (https://github.com/Gallopsled/pwntools), pwndbg (https://github.com/pwndbg/pwndbg), ropper (https://pypi.org/project/ropper/). You will get help with installing this in the previous workshop',
-				targetAudience: 'Beginners in pwn, men you get more out of the workshop if you have some knowledge on assembly, registers, stack layout and how the stack works.'
+				targetAudience: 'This workshop will hopefully be interesting for anyone without prior binary exploitation experience. However, some experience with assembly, x86 and reverse will make it easier to tag along.'
 			},
 			{
 				id: 3,

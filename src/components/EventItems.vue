@@ -5,21 +5,27 @@
 			<div class="eventDate">
 				<span class="eventDay">{{ event.date.day }}</span>
 				<span class="eventMonth">{{ event.date.month }}</span>
+				<hr>
+				<span class="eventTime">{{ event.time }}</span>
+				<span class="eventPlace">{{ event.place }}</span>
+				<div class="eventLinkContainer">
+					<div v-if="event.link" class="eventLink">
+						<a :href=event.link target="_blank">Event link</a>
+					</div>
+					<p v-else>Link coming soon</p>
+				</div>
 			</div>
 			<div class="eventContent">
 				<div class="eventHeader">
-					<div class="eventInfo">
-						<h5>{{ event.title }}</h5>
-						<h7>{{ event.time }}</h7><br>
-						<h7>{{ event.workshop ? 'Instructor' : 'Speaker' }}: {{ event.author }}</h7><br>
-						<a v-if="event.link" :href=event.link target="_blank">Event link</a>
-						<h7 v-else>Link coming soon</h7>
-					</div>
+					<h5>{{ event.title }}</h5>
 					<div class="eventTags">
 						<p>{{ event.language }}</p>
 						<p>{{ event.stream ? 'streamed online' : 'onsite only' }}</p>
 						<p>{{ event.workshop ? 'workshop' : 'presentation' }}</p>
 					</div>
+				</div>
+				<div class="eventInfo">
+					<p>{{ event.workshop ? 'Instructor' : 'Speaker' }}: <i>{{ event.author }}</i></p>
 				</div>
 				<p>{{ event.description }}</p>
 				<p><b>Prerequisites:</b> {{ event.prereqs}}</p> 

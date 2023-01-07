@@ -6,7 +6,7 @@
 
 .eventItem {
     display: grid;
-    grid-template-columns: 10rem auto;
+    grid-template-columns: 15rem auto;
     grid-template-rows: minmax(5rem, auto);
 
     background: var(--background-secondary);
@@ -15,7 +15,6 @@
 
 .eventDate {
 	padding: 0.5rem;
-	height: 100%;
     display: grid;
     grid-auto-rows: min-content;
     place-content: center;

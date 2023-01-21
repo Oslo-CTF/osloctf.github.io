@@ -6,7 +6,7 @@
 
 .eventItem {
     display: grid;
-    grid-template-columns: 10rem auto;
+    grid-template-columns: 15rem auto;
     grid-template-rows: minmax(5rem, auto);
 
     background: var(--background-secondary);
@@ -14,6 +14,7 @@
 }
 
 .eventDate {
+	padding: 0.5rem;
     display: grid;
     grid-auto-rows: min-content;
     place-content: center;
@@ -25,28 +26,47 @@
     border-radius: 0.25rem 0 0 0.25rem;
 }
 
-.eventDay { font-size: 2rem; }
-
+.eventDay { 
+	font-size: 2rem;
+	margin-top: 0.75rem;
+}
 .eventMonth { font-size: 1rem; font-weight: 600; }
+hr { width: 100%; }
+.eventTime { 
+	font-size: 1rem;
+	margin: 0.3rem;
+}
+.eventPlace { font-size: 1rem; }
+.eventLinkContainer { color: rgba(205,113,166,1); }
+.eventLink { margin: 1rem; }
+.eventLink > a { color: rgba(205,113,166,1); }
 
 .eventContent {
     padding: 1rem;
     align-items: center;
 }
+p b { color: rgba(205,113,166,1); }
 
-.eventContent a {
-	color: pink;
+.pinkText { 
+	color: rgba(205,113,166,1); 
+	font-weight: 100;
 }
 
 .eventHeader {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
+	margin-bottom: 1rem;
 }
 
 .eventInfo {
 	flex-direction: column;
 	align-items: left;
+	line-height: 1rem;
+}
+
+.eventInfo p {
+	line-height: 1.2rem;
 }
 
 .eventTags {
@@ -57,11 +77,11 @@
 
 .eventTags p {
 	justify-content: space-around;
-	color: pink;
+	color: rgba(205,113,166,0.9); /*pink;*/
 	border: 1px;
 	border-style: double;
 	padding: 0 5px 0 5px;
-	margin: 0 2px 0 2px;
+	margin: 0 2px 10px 2px;
 	font-size: 12px;
 	height: 24px;
 	white-space: nowrap;
@@ -71,7 +91,7 @@
 
     .eventItem {
         grid-template-columns: auto;
-        grid-template-rows: 5rem auto;
+        grid-template-rows: 13rem auto;
         border-radius: 0 0 0.25rem 0.25rem;
     }
 
@@ -79,4 +99,7 @@
         border-radius: 0.25rem 0.25rem 0 0;
     }
 
+	.eventHeader {
+		flex-direction: column-reverse;
+	}
 }

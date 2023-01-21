@@ -142,18 +142,18 @@ export default {
 			},
 			{
 				id: 5,
-				workshop: true,
+				workshop: false,
 				date: getDateParts(new Date('2023-05-08')),
 				time: '18.00 - 19.00',
 				place: 'Høyskolen Kristiania, room TBA',
 				language: 'english',
 				stream: true,
-				link: '',
-				author: '',
-				title: '',
-				description: '',
-				prereqs: '',
-				targetAudience: ''
+				link: 'https://discord.gg/2zwkdRRFQp?event=1060993679701057657',
+				author: 'Håkon Nikolai Stange Sørum, Principal Security Architect and Partner at O3 Cyber and Bjørn Henninen, Senior Cybersecurity Consultant',
+				title: 'Intro to Cloud Security',
+				description: 'This talk is an introduction to cloud security. Firstly, we will describe the cloud paradigm, what cloud native is and basic principles of cloud security. Then we will show some common mistakes made in cloud environments.',
+				prereqs: 'None, but a basic understanding of cyber security never hurt anyone',
+				targetAudience: 'Everyone with a basic knowledge and/or interest of cyber security'
 			},
 	]
 },

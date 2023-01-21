@@ -5,25 +5,31 @@
 			<div class="eventDate">
 				<span class="eventDay">{{ event.date.day }}</span>
 				<span class="eventMonth">{{ event.date.month }}</span>
+				<hr>
+				<span class="eventTime">{{ event.time }}</span>
+				<span class="eventPlace">{{ event.place }}</span>
+				<div class="eventLinkContainer">
+					<div v-if="event.link" class="eventLink">
+						<a :href=event.link target="_blank">Event link</a>
+					</div>
+					<p v-else>Link coming soon</p>
+				</div>
 			</div>
 			<div class="eventContent">
 				<div class="eventHeader">
-					<div class="eventInfo">
-						<h5>{{ event.title }}</h5>
-						<h7>{{ event.time }}</h7><br>
-						<h7>{{ event.workshop ? 'Instructor' : 'Speaker' }}: {{ event.author }}</h7><br>
-						<a v-if="event.link" :href=event.link target="_blank">Event link</a>
-						<h7 v-else>Link coming soon</h7>
-					</div>
+					<h5>{{ event.title }}</h5>
 					<div class="eventTags">
 						<p>{{ event.language }}</p>
 						<p>{{ event.stream ? 'streamed online' : 'onsite only' }}</p>
 						<p>{{ event.workshop ? 'workshop' : 'presentation' }}</p>
 					</div>
 				</div>
+				<div class="eventInfo">
+					<p>{{ event.workshop ? 'Instructor' : 'Speaker' }}: <i>{{ event.author }}</i></p>
+				</div>
 				<p>{{ event.description }}</p>
-				<p><b>Prerequisites:</b> {{ event.prereqs}}</p> 
-				<p><b>Target audience:</b> {{ event.targetAudience }}</p> 
+				<p><span class="pinkText">> Prerequisites:</span> {{ event.prereqs}}</p> 
+				<p><span class="pinkText">> Target audience:</span> {{ event.targetAudience }}</p> 
 			</div>
 		</div>
 	</div>
@@ -63,7 +69,8 @@ export default {
 				id: 0,
 				workshop: false,
 				date: getDateParts(new Date('2023-01-30')),
-				time: '18.00-19.00, TBA',
+				time: '18.00 - 19.00',
+				place: 'IFI UiO, room TBA',
 				language: 'english',
 				stream: true,
 				author: 'Marit Tokle (maritio_o), program manager for Oslo CTF, CTF player for the team bootplug, and Senior Software Engineer and Business Developer for Secure Development @ Sopra Steria',
@@ -77,7 +84,8 @@ export default {
 				id: 1,
 				workshop: true,
 				date: getDateParts(new Date('2023-02-13')),
-				time: '17.00-20.00, UiO IFI, 3438 Seminarrom Caml',
+				time: '17.00 - 20.00',
+				place: 'Høyskolen Kristiania, room TBA',
 				language: 'english',
 				stream: true,
 				author: 'Christian, Security Researcher @ Dataflow Security, ex-Googler, speaker at BlackHat 2022 and CTF player for bootplug',
@@ -91,21 +99,23 @@ export default {
 				id: 2,
 				workshop: false,
 				date: getDateParts(new Date('2023-03-06')),
-				time: '17.00-20.00, TBA',
+				time: '17.00 - 20.00',
+				place: 'IFI UiO, room TBA',
 				language: 'english',
 				stream: true,
 				author: 'Eirik Nordbø, incident responder and penetration tester in Equinor, and CTF player for the team EPT',
 				link: 'https://discord.gg/2zwkdRRFQp?event=1055763054421344357',
 				title: 'Introduction to return oriented programming (ROP)',
-				description: 'Description will come soon',
+				description: 'Return Oriented Programming is the art of puzzling small parts (gadgets) of a computer program together in a way not intended by the program author. In this workshop we will swiftly discuss concepts like x64 architecture, assembly, stack layout, modern exploit mitigation and more before we move on to understanding stack buffer overflows and how we can use ROP to exploit them.',
 				prereqs: 'Laptop with Linux (or VM with Linux), IDA Free (https://hex-rays.com/ida-free/), pwntools (https://github.com/Gallopsled/pwntools), pwndbg (https://github.com/pwndbg/pwndbg), ropper (https://pypi.org/project/ropper/). You will get help with installing this in the previous workshop',
-				targetAudience: 'Beginners in pwn, men you get more out of the workshop if you have some knowledge on assembly, registers, stack layout and how the stack works.'
+				targetAudience: 'This workshop will hopefully be interesting for anyone without prior binary exploitation experience. However, some experience with assembly, x86 and reverse will make it easier to tag along.'
 			},
 			{
 				id: 3,
 				workshop: true,
 				date: getDateParts(new Date('2023-03-27')),
-				time: '17.00-20.00, TBA',
+				time: '17.00 - 20.00',
+				place: 'Høyskolen Kristiania, room TBA',
 				language: 'english',
 				stream: true,
 				link: 'https://discord.gg/2zwkdRRFQp?event=1055764501011628082',
@@ -119,7 +129,8 @@ export default {
 				id: 4,
 				workshop: false,
 				date: getDateParts(new Date('2023-04-17')),
-				time: '18.00-19.00, TBA',
+				time: '18.00 - 19.00',
+				place: 'IFI UiO, room TBA',
 				language: 'english',
 				stream: true,
 				link: 'https://discord.gg/2zwkdRRFQp?event=1055766639985045544',
@@ -133,7 +144,8 @@ export default {
 				id: 5,
 				workshop: true,
 				date: getDateParts(new Date('2023-05-08')),
-				time: 'TBA',
+				time: '18.00 - 19.00',
+				place: 'Høyskolen Kristiania, room TBA',
 				language: 'english',
 				stream: true,
 				link: '',

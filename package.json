@@ -9,8 +9,8 @@
     "deploy": "node scripts/gh-pages-deploy.mjs"
   },
   "dependencies": {
-    "core-js": "^3.27.2",
-    "vue": "^3.2.45"
+    "core-js": "^3.28.0",
+    "vue": "^3.2.47"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
@@ -18,8 +18,8 @@
     "@vue/cli-plugin-babel": "~5.0.8",
     "@vue/cli-plugin-eslint": "~5.0.8",
     "@vue/cli-service": "~5.0.8",
-    "@vue/compiler-sfc": "^3.2.45",
-    "eslint": "^8.33.0",
+    "@vue/compiler-sfc": "^3.2.47",
+    "eslint": "^8.34.0",
     "eslint-plugin-vue": "^9.9.0",
     "execa": "^7.0.0"
   },

@@ -119,7 +119,7 @@ export default {
 				language: 'english',
 				stream: true,
 				link: 'https://discord.gg/2zwkdRRFQp?event=1055764501011628082',
-				title: 'The challenge platform CyberTalents',
+				title: 'The challenge platform CryptoHack',
 				author: 'Oslo CTF',
 				description: 'Oslo CTF shows you the challenge platform called CryptoHack, a platform for learning modern cryptography! In the workshop we will give a brief introduction to the platform, solve some challenges together before we go into smaller groups or solve the challenges alone. The platform hosts a vast array of cryptography challenges of all difficulty levels.',
 				prereqs: 'None',

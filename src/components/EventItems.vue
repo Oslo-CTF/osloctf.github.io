@@ -121,9 +121,9 @@ export default {
 				link: 'https://discord.gg/2zwkdRRFQp?event=1055764501011628082',
 				title: 'The challenge platform CyberTalents',
 				author: 'Oslo CTF',
-				description: 'Oslo CTF shows you the challenge platform called CyberTalents. We solve a couple of challenges together before we go into smaller groups or work on challenges alone. The platform have many different categories with challenges. The common ones, but also secure development, mobile hacking, and more!',
+				description: 'Oslo CTF shows you the challenge platform called CryptoHack, a platform for learning modern cryptography! In the workshop we will give a brief introduction to the platform, solve some challenges together before we go into smaller groups or solve the challenges alone. The platform hosts a vast array of cryptography challenges of all difficulty levels.',
 				prereqs: 'None',
-				targetAudience: 'Everyone, there are different categories and difficulties to choose between'
+				targetAudience: 'Everyone, challenges range from understanding basic encoding schemes to exploiting weaknesses in modern cryptographic algorithms'
 			},
 			{
 				id: 4,

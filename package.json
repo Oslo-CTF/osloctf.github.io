@@ -13,13 +13,13 @@
     "vue": "^3.2.47"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.0",
-    "@babel/eslint-parser": "^7.19.1",
+    "@babel/core": "^7.21.4",
+    "@babel/eslint-parser": "^7.21.3",
     "@vue/cli-plugin-babel": "~5.0.8",
     "@vue/cli-plugin-eslint": "~5.0.8",
     "@vue/cli-service": "~5.0.8",
     "@vue/compiler-sfc": "^3.2.47",
-    "eslint": "^8.36.0",
+    "eslint": "^8.38.0",
     "eslint-plugin-vue": "^9.9.0",
     "execa": "^7.1.1"
   },

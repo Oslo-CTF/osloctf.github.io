@@ -130,15 +130,15 @@ export default {
 				workshop: false,
 				date: getDateParts(new Date('2023-04-17')),
 				time: '18.00 - 19.00',
-				place: 'IFI UiO, room Caml',
+				place: 'IFI UiO, room Caml (Gaustadalléen 23B)',
 				language: 'english',
 				stream: true,
 				link: 'https://discord.gg/2zwkdRRFQp?event=1055766639985045544',
-				author: 'Thomas Gøytil, Head of Security in Klaveness Digital. Active bug bounty hunter and CTF player for the Norwegian CTF team bootplug',
-				title: 'Intro to web application hacking',
-				description: 'This is a introduction talk about web application hacking. We will start with the basic and give an introduction to HTTP and intercepting proxies. After introducing the basics, we will do a walk through of several real world web CTF tasks.',
-				prereqs: 'None, but there is an advantage to have basic understanding of HTTP',
-				targetAudience: 'Beginners that want an introduction to or learn more about web hacking'
+				author: 'Lone Bekkeheien, kåret til en av Norges 50 fremste tech-kvinner i år! Denne dyktige dama jobber i Sopra Steria og er med i en rekke initiativer',
+				title: 'Intro to purple team',
+				description: 'Hvordan jobber man med å sette opp user caser og deteksjoner på unormal aktivitet i en organisasjons infrastruktur? Hva skjer når zero day-hendelser som Log4j forekommer? Hvordan håndterer man det? Hva er en purple team øvelse? Og hvorfor er det så viktig at bedrifter holder slike øvelser jevnlig? Bli med for å finne ut!',
+				prereqs: 'None',
+				targetAudience: 'Beginner that want to learn about purple teaming and how it has been done in practice'
 			},
 			{
 				id: 5,

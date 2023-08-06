@@ -29,21 +29,21 @@ export default {
       members: [
         {
           id: 0,
-          name: 'Tiril',
+          name: 'Millie',
           title: 'Association President',
-					profilePicture: `${publicPath}team/Tiril.jpg`,
+					profilePicture: `${publicPath}team/sithis.jpg`,
         },
         {
           id: 1,
-          name: 'Stian',
+          name: 'John',
           title: 'Association Vice President',
-					profilePicture: `${publicPath}team/Stian.jpeg`,
+					profilePicture: `${publicPath}team/john.jpg`,
         },
         {
           id: 2,
-          name: 'Marius',
-          title: 'Social and Recruitment Manager',
-					profilePicture: `${publicPath}team/marius.jpg`,
+          name: 'Daniel',
+          title: 'Event and Social Media Manager',
+					profilePicture: `${publicPath}team/daniel.jpg`,
         },
         {
           id: 3,
@@ -59,10 +59,11 @@ export default {
         },
         {
           id: 5,
-          name: 'William',
-          title: 'CTF Manager',
-          profilePicture: `${publicPath}team/william.jpg`,
+          name: 'Kathrine',
+          title: 'Organizer',
+          profilePicture: `${publicPath}team/default1.jpg`,
         },
+        /*
         {
           id: 6,
           name: 'Marie Ihle Frogner',
@@ -75,6 +76,7 @@ export default {
           title: 'Organizer',
 					profilePicture: `${publicPath}team/default1.jpg`,
         },
+        */
       ],
     }
   }

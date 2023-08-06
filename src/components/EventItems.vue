@@ -74,11 +74,11 @@ export default {
 				language: 'english',
 				stream: true,
 				author: 'Marit is a board member of Oslo CTF, she plays with the CTF team bootplug and specializes in secure development as a Senior Software Engineer at Sopra Steria',
-				link: '',
+				link: 'https://discord.gg/2zwkdRRFQp?event=1137777997663965295',
 				title: 'What everyone should know about secure development',
-				description: 'Secure development is a wide topic that covers many parts security of the development lifecycle. To make sure you learn how it all fits together, Marit will start by explaining the broad view. First, she introduces the core security concepts in development. Then, she presents the different phases of development projects and how security fits into these phases. Then she narrows it down to a certain topic to make sure you get some tricks and tips you can bring home. Choose between security headers, CI/CD pipelines or how to write logs that enable the Incident Response Team!',
+				description: 'Secure development is a wide topic that covers many parts security. To make sure you learn how it all fits together, Marit will start by explaining the broad view before she narrows it down into more details. First, she introduces the core security concepts in development and what a Software Development Lifecycle (SDLC) is. Then, she presents how security fits into the SDLC. Lastly, she narrows secure development to a certain topic to make sure you get some tricks and tips you can bring home. Choose between security headers, security in CI/CD pipelines or how to write logs that enable the Incident Response Team!',
 				prereqs: 'None',
-				targetAudience: 'Anyone involved in development projects'
+				targetAudience: 'Anyone curious about secure development, and anyone who are involved in software development'
 			},
 			{
 				id: 1,
@@ -89,11 +89,11 @@ export default {
 				language: 'english',
 				stream: true,
 				author: 'Kamilla Stevenson og Randi Gustad are Software Engineers at Sopra Steria. They are core members of the secure development community at their company, and has the role Security Champions in their projects',
-				link: '',
+				link: 'https://discord.gg/2zwkdRRFQp?event=1137778480952639660',
 				title: 'An Introduction to the CIA Principles',
 				description: 'In this talk, Randi and Kamilla will give an introduction to the CIA principles - Confidentiality, Integrity, and Availability. These are the pillars of information security and useful for anyone working within the security domain. They provide practical examples to make it more fun to learn! \nNext semester, Kamilla and Randi will visit us again and have a workshop on Threat Modelling! The practical tasks are perfect exercises to be more prepared for the workshop!',
 				prereqs: 'None',
-				targetAudience: 'Everyone involved with security'
+				targetAudience: 'Everyone involved in security'
 			},
 			{
 				id: 2,
@@ -104,7 +104,7 @@ export default {
 				language: 'norsk',
 				stream: true,
 				author: 'Alexander Hatlen, IT-Sikkerhetsansvarlig (tidligere både lærling, support og drift) i Horten kommune og Per-Ole Fanuelsen, IT-rådgiver server/infrastrukturansvarlig i Horten kommune',
-				link: '',
+				link: 'https://discord.gg/2zwkdRRFQp?event=1137778978183200819',
 				title: 'Hva gjør egentlig IT-avdelinga i en middels, norsk kommune?',
 				description: 'IT-konsulenter og -rådgivere i norske kommuner opplever at mange har et inntrykk av at kommune-norge kjører legacy IT-systemer. Riktignok har de en del av det, som er en kunst i seg selv å drifte på en trygg måte, men de gjør også moderne arbeid. Ja, de har containere, sky og CI/CD pipelines. De gjør det aller, aller meste selv. Kommuner er noen av de største arbeidsplassene vi har i Norge og det gir muligheter for et perfekt sted å gro sin IT-kompetanse. Det samme gjelder offentlige arbeidsplasser generelt, som fylkeskommuner og etater. \nKom og hør hvilke ansvar man har i en kommunal IT-avdeling, hvordan de er bygd opp i organisasjonen, omfanget av hva de drifter og supporterer, og hvordan de gjør nettopp det. De dykker fra organisasjonsstruktur og helt ned i hvilke CI/CD-pipelines de bruker. \nHorten kommune er en middels stor norsk kommune, 1 time sør for Oslo, med ca 28500 innbyggere. Hvis du lurer på hvor mange servere, lokasjoner og aksesspunkter de har må du dukke opp på foredraget! Alexander og Per-Ole blir igjen etter presentasjonen for å prate om hvordan det er å arbeide i offentlig sektor, eller å ta et dypdykk ned i Powershell-koden de kjører. \nKeywords: Skalering, nettverk, servere, virtualisering, backup, lagring, IoT-plattform, automasjon, utvikling, CI/CD, lønn og arbeidsliv, applikasjonsdrift.',
 				prereqs: 'Nysgjerrighet!',
@@ -118,12 +118,12 @@ export default {
 				place: 'IFI UiO, room Caml (Gaustadalléen 23B)',
 				language: 'english',
 				stream: true,
-				link: '',
+				link: 'https://discord.gg/2zwkdRRFQp?event=1137779413673574480',
 				title: 'What the Fluff is a Red Team: Warstories and Career Advice',
 				author: 'Eirik is a senior security consultant and operator as a part of a team performing red team operations, TIBER, assumed breach assessments and detection validation exercises. Responsibilities include designing and conducting network operations; simulating threat actors to identify risk, improve client’s detection and response capabilities through short and long-term engagements and develop novel TTPs with the team. Eirik is an occasional host of the Norwegian security podcast 5H3LLCAST and have held talks at both HackCon and Sikkerhetsfestivalen.',
-				description: 'Red Team War Stories and Career Advice: How to Go from Part-Time Sales Associate to Working Remotely on an International Red Team. \nPerhaps you\'ve heard about "red teaming", this talk will cover the differences between penetration testing, red teaming and how what a red team wants from you, should you want to become one.',
-				prereqs: 'Basic information security knowledge. Perhaps some knowledge or interest in penetration testing, red teaming, social engineering, and network and infrastructure security',
-				targetAudience: 'Students and young career professionals looking to break into infosec and cybsersecurity'
+				description: 'Red Team War Stories and Career Advice: How to Go from Part-Time Sales Associate to Working Remotely on an International Red Team. Perhaps you\'ve heard about "red teaming". This talk will cover the differences between penetration testing, red teaming, and what a red team wants from you, should you want to become part of one. \nEirik\'s career path is exciting and inspiring! We are lucky to have him share his experience and give us useful advices to go forth with a red team career.',
+				prereqs: 'Some knowledge or interest in penetration testing, red teaming, social engineering, and network and infrastructure security come in handy',
+				targetAudience: 'Students and young career professionals looking to break into infosec and cyber security'
 			},
 			{
 				id: 4,
@@ -148,7 +148,7 @@ export default {
 				place: 'IFI UiO, room Caml (Gaustadalléen 23B)',
 				language: 'english',
 				stream: true,
-				link: '',
+				link: 'https://discord.gg/2zwkdRRFQp?event=1137779704418541630',
 				author: 'Oslo CTF',
 				title: 'Juleavslutning med PST sin julekalender',
 				description: 'Ta rollen som alvebetjent og løs CTF-oppgaver i PST sin julekalender! Eller jobb på det du vil og bare bli med på en sosial avlsutning før juleferien <3',

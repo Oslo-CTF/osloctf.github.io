@@ -24,10 +24,10 @@
 						<p>{{ event.workshop ? 'workshop' : 'presentation' }}</p>
 					</div>
 				</div>
-				<div class="eventInfo">
-					<p>{{ event.workshop ? 'Instructor' : 'Speaker' }}: <i>{{ event.author }}</i></p>
-				</div>
 				<p>{{ event.description }}</p>
+				<div class="eventInfo">
+					<p><span class="pinkText">> {{ event.workshop ? 'Instructor' : 'Speaker' }}:</span> {{ event.author }}</p>
+				</div>
 				<p><span class="pinkText">> Prerequisites:</span> {{ event.prereqs}}</p> 
 				<p><span class="pinkText">> Target audience:</span> {{ event.targetAudience }}</p> 
 			</div>

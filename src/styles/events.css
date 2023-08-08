@@ -15,9 +15,9 @@
 
 .eventDate {
 	padding: 0.5rem;
+	padding-top: 2rem;
     display: grid;
     grid-auto-rows: min-content;
-    place-content: center;
 
     background: white;
     color: rgba(0, 0, 0, .86);

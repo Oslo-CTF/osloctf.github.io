@@ -24,10 +24,10 @@
 						<p>{{ event.workshop ? 'workshop' : 'presentation' }}</p>
 					</div>
 				</div>
-				<div class="eventInfo">
-					<p>{{ event.workshop ? 'Instructor' : 'Speaker' }}: <i>{{ event.author }}</i></p>
-				</div>
 				<p>{{ event.description }}</p>
+				<div class="eventInfo">
+					<p><span class="pinkText">> {{ event.workshop ? 'Instructor' : 'Speaker' }}:</span> {{ event.author }}</p>
+				</div>
 				<p><span class="pinkText">> Prerequisites:</span> {{ event.prereqs}}</p> 
 				<p><span class="pinkText">> Target audience:</span> {{ event.targetAudience }}</p> 
 			</div>
@@ -68,92 +68,92 @@ export default {
 			{
 				id: 0,
 				workshop: false,
-				date: getDateParts(new Date('2023-01-30')),
+				date: getDateParts(new Date('2023-09-04')),
 				time: '18.00 - 19.00',
-				place: 'IFI UiO, room Caml',
+				place: 'Høyskolen Kristiania, room KAU-B1-02',
 				language: 'english',
 				stream: true,
-				author: 'Marit Tokle (maritio_o), program manager for Oslo CTF, CTF player for the team bootplug, and Senior Software Engineer and Business Developer for Secure Development @ Sopra Steria',
-				link: 'https://discord.gg/2zwkdRRFQp?event=1055747857648463902',
-				title: 'What I learned from the CTF web challenge "Hack(pt)MD"',
-				description: 'Marit will walk us through her team\'s way of solving the web challenge called Hack(pt)MD, which they didn\'t even solve. She will demonstrate a couple of things they tried that didn\'t work, and what they learned from these trials and errors. Also, if there is time she will show how to patch the application so that it is not vulnerable anymore. You will be provided with resources so that you can try to play with and solve the challenge yourselves.',
-				prereqs: 'It is not necessary, but is probably nice to know a bit on JavaScript, HTML and CSS.',
-				targetAudience: 'All experience levels, those who are interested in web challenges in CTFs'
+				author: 'Marit is a board member of Oslo CTF, she plays with the CTF team bootplug and specializes in secure development as a Senior Software Engineer at Sopra Steria',
+				link: 'https://discord.gg/2zwkdRRFQp?event=1137777997663965295',
+				title: 'What everyone should know about secure development',
+				description: 'Secure development is a wide topic that covers many parts security. To make sure you learn how it all fits together, Marit will start by explaining the broad view before she narrows it down into more details. First, she introduces the core security concepts in development and what a Software Development Lifecycle (SDLC) is. Then, she presents how security fits into the SDLC. Lastly, she narrows secure development to a certain topic to make sure you get some tricks and tips you can bring home. Choose between security headers, security in CI/CD pipelines or how to write logs that enable the Incident Response Team!',
+				prereqs: 'None',
+				targetAudience: 'Anyone curious about secure development, and anyone who are involved in software development'
 			},
 			{
 				id: 1,
-				workshop: true,
-				date: getDateParts(new Date('2023-02-13')),
-				time: '17.00 - 20.00',
-				place: 'Høyskolen Kristiania, room KAU-B1-02',
-				language: 'english',
-				stream: true,
-				author: 'Christian, Security Researcher @ Dataflow Security, ex-Googler, speaker at BlackHat 2022 and CTF player for bootplug',
-				link: 'https://discord.gg/2zwkdRRFQp?event=1055753085080830002',
-				title: 'Intro to pwn challenges',
-				description: 'Intro to pwn challenge platforms and useful resources for learning pwn. We aim at getting you started with pwn, a category known for being one of the more difficult ones in CTF. This is nice as a warm-up for the next workshop, and we highly recommend joining this if you want to learn about Return Oriented Programming.',
-				prereqs: 'Laptop with Linux (or VM with Linux)',
-				targetAudience: 'Beginners, this is meant as a warmup to the next workshop. Anyone who are interested in the pwn category or binary exploitation'
-			},
-			{
-				id: 2,
 				workshop: false,
-				date: getDateParts(new Date('2023-03-06')),
-				time: '17.00 - 20.00',
-				place: 'IFI UiO, room Caml',
-				language: 'english',
-				stream: true,
-				author: 'Eirik Nordbø, incident responder and penetration tester in Equinor, and CTF player for the team EPT',
-				link: 'https://discord.gg/2zwkdRRFQp?event=1055763054421344357',
-				title: 'Introduction to return oriented programming (ROP)',
-				description: 'Return Oriented Programming is the art of puzzling small parts (gadgets) of a computer program together in a way not intended by the program author. In this workshop we will swiftly discuss concepts like x64 architecture, assembly, stack layout, modern exploit mitigation and more before we move on to understanding stack buffer overflows and how we can use ROP to exploit them.',
-				prereqs: 'Laptop with Linux (or VM with Linux), IDA Free (https://hex-rays.com/ida-free/), pwntools (https://github.com/Gallopsled/pwntools), pwndbg (https://github.com/pwndbg/pwndbg), ropper (https://pypi.org/project/ropper/). You will get help with installing this in the previous workshop',
-				targetAudience: 'This workshop will hopefully be interesting for anyone without prior binary exploitation experience. However, some experience with assembly, x86 and reverse will make it easier to tag along.'
-			},
-			{
-				id: 3,
-				workshop: true,
-				date: getDateParts(new Date('2023-03-27')),
-				time: '17.00 - 20.00',
-				place: 'Høyskolen Kristiania, room KAU-B1-02',
-				language: 'english',
-				stream: true,
-				link: 'https://discord.gg/2zwkdRRFQp?event=1055764501011628082',
-				title: 'The challenge platform CryptoHack',
-				author: 'Oslo CTF',
-				description: 'Oslo CTF shows you the challenge platform called CryptoHack, a platform for learning modern cryptography! In the workshop we will give a brief introduction to the platform, solve some challenges together before we go into smaller groups or solve the challenges alone. The platform hosts a vast array of cryptography challenges of all difficulty levels.',
-				prereqs: 'None',
-				targetAudience: 'Everyone, challenges range from understanding basic encoding schemes to exploiting weaknesses in modern cryptographic algorithms'
-			},
-			{
-				id: 4,
-				workshop: false,
-				date: getDateParts(new Date('2023-04-17')),
+				date: getDateParts(new Date('2023-09-18')),
 				time: '18.00 - 19.00',
 				place: 'IFI UiO, room Caml (Gaustadalléen 23B)',
 				language: 'english',
 				stream: true,
-				link: 'https://discord.gg/2zwkdRRFQp?event=1055766639985045544',
-				author: 'Lone Bekkeheien, kåret til en av Norges 50 fremste tech-kvinner i år! Denne dyktige dama jobber i Sopra Steria og er med i en rekke initiativer',
-				title: 'Intro to purple team',
-				description: 'Hvordan jobber man med å sette opp user caser og deteksjoner på unormal aktivitet i en organisasjons infrastruktur? Hva skjer når zero day-hendelser som Log4j forekommer? Hvordan håndterer man det? Hva er en purple team øvelse? Og hvorfor er det så viktig at bedrifter holder slike øvelser jevnlig? Bli med for å finne ut!',
+				author: 'Kamilla Stevenson og Randi Gustad are Software Engineers at Sopra Steria. They are core members of the secure development community at their company, and has the role Security Champions in their projects',
+				link: 'https://discord.gg/2zwkdRRFQp?event=1137778480952639660',
+				title: 'An Introduction to the CIA Principles',
+				description: 'In this talk, Randi and Kamilla will give an introduction to the CIA principles - Confidentiality, Integrity, and Availability. These are the pillars of information security and useful for anyone working within the security domain. They provide practical examples to make it more fun to learn! \nNext semester, Kamilla and Randi will visit us again and have a workshop on Threat Modelling! The practical tasks are perfect exercises to be more prepared for the workshop!',
 				prereqs: 'None',
-				targetAudience: 'Beginner that want to learn about purple teaming and how it has been done in practice'
+				targetAudience: 'Everyone involved in security'
 			},
 			{
-				id: 5,
+				id: 2,
 				workshop: false,
-				date: getDateParts(new Date('2023-05-08')),
+				date: getDateParts(new Date('2023-10-16')),
+				time: '17.00 - 19.00',
+				place: 'Høyskolen Kristiania, room KAU-B1-02',
+				language: 'norsk',
+				stream: true,
+				author: 'Alexander Hatlen, IT-Sikkerhetsansvarlig (tidligere både lærling, support og drift) i Horten kommune og Per-Ole Fanuelsen, IT-rådgiver server/infrastrukturansvarlig i Horten kommune',
+				link: 'https://discord.gg/2zwkdRRFQp?event=1137778978183200819',
+				title: 'Hva gjør egentlig IT-avdelinga i en middels, norsk kommune?',
+				description: 'IT-konsulenter og -rådgivere i norske kommuner opplever at mange har et inntrykk av at kommune-norge kjører legacy IT-systemer. Riktignok har de en del av det, som er en kunst i seg selv å drifte på en trygg måte, men de gjør også moderne arbeid. Ja, de har containere, sky og CI/CD pipelines. De gjør det aller, aller meste selv. Kommuner er noen av de største arbeidsplassene vi har i Norge og det gir muligheter for et perfekt sted å gro sin IT-kompetanse. Det samme gjelder offentlige arbeidsplasser generelt, som fylkeskommuner og etater. \nKom og hør hvilke ansvar man har i en kommunal IT-avdeling, hvordan de er bygd opp i organisasjonen, omfanget av hva de drifter og supporterer, og hvordan de gjør nettopp det. De dykker fra organisasjonsstruktur og helt ned i hvilke CI/CD-pipelines de bruker. \nHorten kommune er en middels stor norsk kommune, 1 time sør for Oslo, med ca 28500 innbyggere. Hvis du lurer på hvor mange servere, lokasjoner og aksesspunkter de har må du dukke opp på foredraget! Alexander og Per-Ole blir igjen etter presentasjonen for å prate om hvordan det er å arbeide i offentlig sektor, eller å ta et dypdykk ned i Powershell-koden de kjører. \nKeywords: Skalering, nettverk, servere, virtualisering, backup, lagring, IoT-plattform, automasjon, utvikling, CI/CD, lønn og arbeidsliv, applikasjonsdrift.',
+				prereqs: 'Nysgjerrighet!',
+				targetAudience: 'Alle som har tenkt å søke jobb de neste årene. Vi starter med noe for absolutt alle, og utvikler oss til å fortelle om produktene/systemene vi bruker på et middels teknisk nivå, der enkelte detaljer vil gå over hodet på noen i kortere perioder.'
+			},
+			{
+				id: 3,
+				workshop: false,
+				date: getDateParts(new Date('2023-10-30')),
+				time: '17.00 - 19.00',
+				place: 'IFI UiO, room Caml (Gaustadalléen 23B)',
+				language: 'english',
+				stream: true,
+				link: 'https://discord.gg/2zwkdRRFQp?event=1137779413673574480',
+				title: 'What the Fluff is a Red Team: Warstories and Career Advice',
+				author: 'Eirik is a senior security consultant and operator as a part of a team performing red team operations, TIBER, assumed breach assessments and detection validation exercises. Responsibilities include designing and conducting network operations; simulating threat actors to identify risk, improve client’s detection and response capabilities through short and long-term engagements and develop novel TTPs with the team. Eirik is an occasional host of the Norwegian security podcast 5H3LLCAST and have held talks at both HackCon and Sikkerhetsfestivalen.',
+				description: 'Red Team War Stories and Career Advice: How to Go from Part-Time Sales Associate to Working Remotely on an International Red Team. Perhaps you\'ve heard about "red teaming". This talk will cover the differences between penetration testing, red teaming, and what a red team wants from you, should you want to become part of one. \nEirik\'s career path is exciting and inspiring! We are lucky to have him share his experience and give us useful advices to go forth with a red team career.',
+				prereqs: 'Some knowledge or interest in penetration testing, red teaming, social engineering, and network and infrastructure security come in handy',
+				targetAudience: 'Students and young career professionals looking to break into infosec and cyber security'
+			},
+			{
+				id: 4,
+				workshop: false,
+				date: getDateParts(new Date('2023-11-20')),
 				time: '18.00 - 19.00',
 				place: 'Høyskolen Kristiania, room KAU-B1-02',
 				language: 'english',
 				stream: true,
-				link: 'https://discord.gg/2zwkdRRFQp?event=1060993679701057657',
-				author: 'Håkon Nikolai Stange Sørum, Principal Security Architect and Partner at O3 Cyber and Bjørn Henninen, Senior Cybersecurity Consultant',
-				title: 'Intro to Cloud Security',
-				description: 'This talk is an introduction to cloud security. Firstly, we will describe the cloud paradigm, what cloud native is and basic principles of cloud security. Then we will show some common mistakes made in cloud environments.',
-				prereqs: 'None, but a basic understanding of cyber security never hurt anyone',
-				targetAudience: 'Everyone with a basic knowledge and/or interest of cyber security'
+				link: '',
+				author: 'Millie, our very own Association President!',
+				title: 'TBA',
+				description: 'TBA',
+				prereqs: 'TBA',
+				targetAudience: 'TBA'
+			},
+			{
+				id: 5,
+				workshop: true,
+				date: getDateParts(new Date('2023-12-04')),
+				time: '17.00 - 20.00',
+				place: 'IFI UiO, room Caml (Gaustadalléen 23B)',
+				language: 'english',
+				stream: true,
+				link: 'https://discord.gg/2zwkdRRFQp?event=1137779704418541630',
+				author: 'Oslo CTF',
+				title: 'Juleavslutning med PST sin julekalender',
+				description: 'Ta rollen som alvebetjent og løs CTF-oppgaver i PST sin julekalender! Eller jobb på det du vil og bare bli med på en sosial avlsutning før juleferien <3',
+				prereqs: 'Ta med din egen laptop!',
+				targetAudience: 'Alle! <3'
 			},
 	]
 },

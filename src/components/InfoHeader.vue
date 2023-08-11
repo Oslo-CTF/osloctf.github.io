@@ -1,18 +1,16 @@
 <template>
   <div class="header">
     <div class="headerContainer">
-      <img class="logo" alt="Logo" src="../assets/logo.svg" />
+      <img class="logo" alt="Logo" src="../assets/logo/standard_hvit_tekst.png" />
       <div>
-        <h1 class="title">Oslo CTF</h1>
         <p class="description">
-          Oslo CTF is a group of security enthusiasts and programmers based at
-          the University of Oslo, Oslo Metropolitan University, and Noroff. 
-          Our target group is students, but every newcomer to the security 
-          community is more than welcome! 
-          Our goal is to raise awareness of the importance of IT security, 
-          and which types of security jobs are out there. 
-          Every semester we host workshops related to programming, CTF or 
-          other security topics.
+          Oslo CTF is a group of security enthusiasts and programmers based in Oslo.
+          Our target group is students and newcomers to the security community. 
+          Everyone are welcome! 
+          Our goal is to raise awareness of the importance of IT security
+          and which types of security jobs are out there,
+          as well as teaching people about security.
+          Every semester we host workshops and presentation related to security or CTF.
         </p> 
         <p>
           Join our Discord server to get more information about our events:

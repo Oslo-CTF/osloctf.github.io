@@ -24,7 +24,7 @@
 						<p>{{ event.workshop ? 'workshop' : 'presentation' }}</p>
 					</div>
 				</div>
-				<p>{{ event.description }}</p>
+				<p v-html="replaceWithBr(event.description)" />
 				<div class="eventInfo">
 					<p><span class="pinkText">> {{ event.workshop ? 'Instructor' : 'Speaker' }}:</span> {{ event.author }}</p>
 				</div>
@@ -160,6 +160,10 @@ export default {
 methods: {
 	getMonthName(month) {
 		return monthNames[month];
+	},
+
+	replaceWithBr(text) {
+		return text.replace(/\n/g, "<br /><br />")
 	}
 }
 };

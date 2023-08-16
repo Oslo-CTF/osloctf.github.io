@@ -53,17 +53,17 @@ export default {
         },
         {
           id: 4,
-          name: 'Marit Iren R. Tokle',
+          name: 'Marit',
           title: 'Program Manager',
           profilePicture: `${publicPath}team/Tokle.jpg`,
         },
+        /*
         {
           id: 5,
           name: 'Kathrine',
           title: 'Organizer',
           profilePicture: `${publicPath}team/default1.jpg`,
         },
-        /*
         {
           id: 6,
           name: 'Marie Ihle Frogner',

@@ -106,7 +106,7 @@ export default {
 				author: 'CybSec is a Stduent Association from Høyskolen Kristiania. They help students learn more about Cybersecurity and connect with comppanies in the industry.',
 				link: '',
 				title: 'CybSec x Oslo CTF!',
-				description: 'Mini CTF made by students from Høyskolen Kristiania and UiO. The challenges from this CTF are aimed towards beginners and students, to showcase the skills they have learned from the previous semesters.',
+				description: 'Join our Mini CTF, crafted by students from Høyskolen Kristiania and UiO. This event features beginner-friendly challenges, perfect for students to demonstrate their skills acquired in previous semesters. Engage in an exciting showcase of cybersecurity talents and learning.',
 				prereqs: 'Bring your laptops!',
 				targetAudience: 'Everyone who wants to try on-premise mini CTF made by students.'
 			},
@@ -119,9 +119,9 @@ export default {
 				language: 'english/norwegian',
 				stream: false,
 				link: '',
-				title: 'Cryptography/Cryptohacking',
-				author: 'Millie is the Associate Preisdent of Oslo CTF. She is a computer science student from UiO with a strong passion for cryptography and cybersecurity.',
-				description: 'Learn the basics about cryptography, by our Associate President.',
+				title: 'Learn Cryptography with Cryptohack!',
+				author: 'Mille, Association President of Oslo CTF.',
+				description: 'Basic introduction to cryptography. In this workshop we will introduce the learning platform CryptoHack, a fun and interactive way of learning cryptography through solving CTF challenges! Encryption is used everywhere to secure information. Through solving challenges on CryptoHack you will learn both how to break insecure encryption as well as how to build rigid cryptographic schemes.',
 				prereqs: 'Bring your laptops!',
 				targetAudience: 'Students and Beginners'
 			},
@@ -135,8 +135,8 @@ export default {
 				stream: false,
 				link: '',
 				author: 'Marit og Christian, pwn powercouple. They started Oslo CTF together years ago, and are now working with cybersecurity abroad.',
-				title: 'Pwn 101 - del 1',
-				description: 'Learning about stack overflow and using pwntools.',
+				title: 'Pwn 101 - Part 1',
+				description: 'Explore stack overflow vulnerabilities in our interactive workshop, Pwn 101. This session introduces the basics of stack overflows and their exploitation using Pwntools. Engage in practical challenges to learn both exploitation techniques and secure coding principles. Ideal for beginners and those with some experience, this workshop is a step into the world of cybersecurity.',
 				prereqs: 'Bring your laptops!',
 				targetAudience: 'Students and Beginners'
 			},
@@ -150,8 +150,8 @@ export default {
 				stream: false,
 				link: '',
 				author: 'Marit og Christian, pwn powercouple. They started Oslo CTF together years ago, and are now working with cybersecurity abroad.',
-				title: 'Pwn 101 - del 2',
-				description: 'Learning about ROP and using the debugger and decompiler.',
+				title: 'Pwn 101 - Part 2',
+				description: 'Delve into Return-Oriented Programming (ROP) in this focused session. Learn how to use debuggers and decompilers effectively for understanding and exploiting ROP techniques. This workshop offers practical insights into manipulating program control flow, a key skill in advanced cybersecurity. Suitable for learners eager to expand their knowledge in code exploitation and defense strategies.',
 				prereqs: 'Bring your laptops!',
 				targetAudience: 'Beginners and those who joined the first workshop.'
 			},

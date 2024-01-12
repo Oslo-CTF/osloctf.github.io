@@ -98,6 +98,21 @@ export default {
 			{
 				id: 2,
 				workshop: false,
+				date: getDateParts(new Date('2024-02-28')),
+				time: '17.00 - 19.00',
+				place: 'IFI UiO, room Caml (Gaustadalléen 23B)',
+				language: 'english/norwegian',
+				stream: false,
+				link: '',
+				title: 'Learn Cryptography with Cryptohack!',
+				author: 'Mille, Association President of Oslo CTF.',
+				description: 'Basic introduction to cryptography. In this workshop we will introduce the learning platform CryptoHack, a fun and interactive way of learning cryptography through solving CTF challenges! Encryption is used everywhere to secure information. Through solving challenges on CryptoHack you will learn both how to break insecure encryption as well as how to build rigid cryptographic schemes.',
+				prereqs: 'Bring your laptops!',
+				targetAudience: 'Students and Beginners'
+			},
+			{
+				id: 3,
+				workshop: false,
 				date: getDateParts(new Date('2024-03-20')),
 				time: '17.00 - 19.00',
 				place: 'Høyskolen Kristiania, Tollbugata 34 (Rom TAU C1)',
@@ -111,24 +126,9 @@ export default {
 				targetAudience: 'Everyone who wants to try on-premise mini CTF made by students.'
 			},
 			{
-				id: 3,
-				workshop: false,
-				date: getDateParts(new Date('2024-05-06')),
-				time: '17.00 - 19.00',
-				place: 'IFI UiO, room Caml (Gaustadalléen 23B)',
-				language: 'english/norwegian',
-				stream: false,
-				link: '',
-				title: 'Learn Cryptography with Cryptohack!',
-				author: 'Mille, Association President of Oslo CTF.',
-				description: 'Basic introduction to cryptography. In this workshop we will introduce the learning platform CryptoHack, a fun and interactive way of learning cryptography through solving CTF challenges! Encryption is used everywhere to secure information. Through solving challenges on CryptoHack you will learn both how to break insecure encryption as well as how to build rigid cryptographic schemes.',
-				prereqs: 'Bring your laptops!',
-				targetAudience: 'Students and Beginners'
-			},
-			{
 				id: 4,
 				workshop: false,
-				date: getDateParts(new Date('2024-05-15')),
+				date: getDateParts(new Date('2024-05-06')),
 				time: '18.00 - 19.00',
 				place: 'Høyskolen Kristiania, Tollbugata 34 (Rom TAU C1)',
 				language: 'english/norwegian',
@@ -143,7 +143,7 @@ export default {
 			{
 				id: 5,
 				workshop: false,
-				date: getDateParts(new Date('2024-06-20')),
+				date: getDateParts(new Date('2024-05-15')),
 				time: '17.00 - 20.00',
 				place: 'IFI UiO, room Caml (Gaustadalléen 23B)',
 				language: 'english/norwegian',

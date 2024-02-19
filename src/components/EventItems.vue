@@ -128,7 +128,7 @@ export default {
 			{
 				id: 4,
 				workshop: false,
-				date: getDateParts(new Date('2024-05-06')),
+				date: getDateParts(new Date('2024-05-08')),
 				time: '17.00 - 20.00',
 				place: 'IFI UiO, room Caml (Gaustadalléen 23B)',
 				language: 'english/norwegian',
@@ -143,7 +143,7 @@ export default {
 			{
 				id: 5,
 				workshop: false,
-				date: getDateParts(new Date('2024-05-15')),
+				date: getDateParts(new Date('2024-05-13')),
 				time: '17.00 - 20.00',
 				place: 'IFI UiO, room Caml (Gaustadalléen 23B)',
 				language: 'english/norwegian',

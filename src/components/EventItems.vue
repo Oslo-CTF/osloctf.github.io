@@ -122,7 +122,7 @@ export default {
 				link: 'https://discord.gg/RvY5QxgF?event=1229446943642488963',
 				title: 'CybSec x Oslo CTF!',
 				description: 'Come join us for the Mini CTF event, co-hosted by Oslo CTF and CybSec in collaboration with Høyskolen Kristiania. This event is designed to ignite a passion for cybersecurity, accommodating both beginners and those with some prior knowledge. Crafted by the talented students of Høyskolen Kristiania and the University of Oslo, this CTF features beginner-friendly challenges that are perfect for demonstrating the cybersecurity skills acquired in previous courses. It is a great opportunity for students to engage in an exciting showcase of their cybersecurity talents and learning. Whether you are just starting out or looking to further your knowledge, this event promises to be a stimulating experience in the world of cybersecurity. Join us and step into the role of a cybersecurity expert for a day!',
-				prereqs: 'Bring your laptops! Online challenges (aHR0cHM6Ly9rcmlzdGlhbmlhY3RmLmN0ZmQuaW8v) starts at 15.00, while on-site challenges starts at 18.00',
+				prereqs: 'Bring your laptops! Online challenges (aHR0cHM6Ly9jdGYub3Nsb2N0Zi5uby8=) starts at 15.00, while on-site challenges starts at 18.00',
 				targetAudience: 'Everyone who wants to try on-premise mini CTF made by students.'
 			},
 			{

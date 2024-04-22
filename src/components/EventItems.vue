@@ -134,11 +134,11 @@ export default {
 				language: 'english/norwegian',
 				stream: false,
 				link: 'https://discord.gg/RvY5QxgF?event=1195741807380795494',
-				author: 'Marit og Christian, pwn powercouple. They started Oslo CTF together years ago, and are now working with cybersecurity abroad.',
-				title: 'Pwn 101 - Part 1',
-				description: 'In this workshop you will learn about the stack overflow vulnerability. First you learn how the stack works and then we solve tasks together to gain control over how to abuse stack overflow vulnerabilities. You also learn to use one of the most useful tools in pwn, the pwntools scripting tool.',
-				prereqs: 'netcat, Python, pwntools',
-				targetAudience: 'Students and Beginners'
+				author: 'Marit og Christian, pwn power couple. They started Oslo CTF together years ago, and are now working with security abroad.',
+				title: 'Pwn 101 - Buffer overflow',
+				description: 'In this workshop you will learn about the stack overflow vulnerability. First you learn how the stack works and then we solve tasks together to gain control over how to abuse stack overflow vulnerabilities. You also learn to use one of the most useful tools in pwn, the pwntools scripting tool. The challenges are created to require minimal setup on your own machine.',
+				prereqs: 'netcat, Python, pwntools, Linux environment (we recommend host machine or VM - cannot guarantee that it works with WSL or MacOS)',
+				targetAudience: 'Students and beginners'
 			},
 			{
 				id: 5,
@@ -149,10 +149,10 @@ export default {
 				language: 'english/norwegian',
 				stream: false,
 				link: 'https://discord.gg/RvY5QxgF?event=1195741554493632563',
-				author: 'Marit og Christian, pwn powercouple. They started Oslo CTF together years ago, and are now working with cybersecurity abroad.',
-				title: 'Pwn 101 - Part 2',
-				description: 'Now that you have learned how the stack works and how to script solutions with pwntools, lets move on and learn about Return Oriented Programming (ROP). Now that the tasks are getting a bit more complicated, it is a good idea to learn how to use the debugger and decompiler. Therefore, we show how they use them to solve pwn tasks.',
-				prereqs: 'Same as for the previous workshop, as well as a Linux environment (host machine or VM), a debugger (pwndbg/gef) and a decompiler (Binary Ninja-the one we will use while demoing, Ghidra or IDA/IDA Free.)',
+				author: 'Marit og Christian, pwn power couple. They started Oslo CTF together years ago, and are now working with security abroad.',
+				title: 'Pwn 101 - Return Oriented Programming (ROP)',
+				description: 'Now that you have learned how the stack works and how to script solutions with pwntools, lets move on and learn about Return Oriented Programming (ROP) and using ROP gadgets. We have created challenges that requires minimal setup on your local machine. We continue using pwntools from the previous workshop.',
+				prereqs: 'Same as for the previous workshop. Optionally, you can download a debugger (pwndbg/gef) and a decompiler (Ghidra/Binary Ninja/IDA Free), and we can show you how you use them to solve pwn challenges.',
 				targetAudience: 'Beginners and those who joined the first workshop.'
 			},
 	]
